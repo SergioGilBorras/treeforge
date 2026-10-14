@@ -34,6 +34,6 @@ Colors use six-digit hexadecimal values. `colors` keys may match categories (`im
 - `exclude`: directory entries to ignore while scanning.
 - `max_depth`: root is depth 0.
 - `max_nodes`: total diagram node budget.
-- `icons_dir`: reserved for future user-supplied SVG packs; not applied in v0.1.0.
+- `icons_dir`: local directory of user-provided SVG icons for the native vertical SVG output (see [Icons](icons.md)).
 
 Grouping preserves original filenames in each aggregated node's `members` list.
