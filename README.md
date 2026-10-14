@@ -72,7 +72,7 @@ See [Getting started](docs/getting-started.md), [Rendering and layouts](docs/ren
 
 **Notes on layout:** Mermaid's flowchart layout does not reproduce the exact classic connector tree; use native SVG/TXT for that. In horizontal mode Graphviz offers more geometry control; `align` currently changes spacing, not a strict bounding-box anchor.
 
-**Custom icons:** the `icons_dir` parameter is reserved for external icon packs and is documented as an upcoming feature. Built-in Unicode symbols are currently used for vertical SVG/TXT. The project will add its own bundled SVG pack and icon overrides as the next iteration.
+**Custom icons:** provide `--icons-dir ./icons` (or `TreeConfig(icons_dir="./icons")`) to override native vertical SVG icons with your own SVG files. Filename precedence: extension, category, then `folder.svg` / `file.svg`. TreeForge ships with Unicode fallback icons; example SVGs are available under `icons/`. See [Icon customization](docs/icons.md).
 
 ## Development
 
