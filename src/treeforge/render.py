@@ -198,6 +198,9 @@ def render(root: Node, path: Path, config: TreeConfig, engine: str, layout: str)
         content = to_dot(root, config, layout)
     elif suffix == ".svg" and layout == "vertical" and engine == "native":
         content = svg_vertical(root, config)
+    elif suffix == ".svg" and layout == "horizontal" and engine == "native":
+        from .horizontal import svg_horizontal
+        content = svg_horizontal(root, config)
     elif suffix in (".svg", ".png", ".pdf") and engine == "graphviz":
         if not shutil.which("dot"):
             raise RuntimeError("Graphviz 'dot' executable not found. Install Graphviz or use vertical native SVG.")
