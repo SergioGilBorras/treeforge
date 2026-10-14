@@ -27,13 +27,13 @@ def svg_horizontal(root: Node, config: TreeConfig) -> str:
         label = node.name + ("/" if node.directory else "")
         if node.members and config.show_counts:
             label += f" [{len(node.members)}]"
-        column_widths[depth] = max(column_widths.get(depth, 0), 55 + len(label) * 8.7)
+        column_widths[depth] = max(column_widths.get(depth, 0), 54 + len(label) * 8.7)
 
     left: dict[int, float] = {}
     start = 30.0
     for depth in sorted(column_widths):
         left[depth] = start
-        start += column_widths[depth] + 52
+        start += column_widths[depth] + 64
     width = max(480.0, start + 24)
 
     children: dict[int, list[int]] = {i: [] for i in range(len(nodes))}
@@ -44,7 +44,7 @@ def svg_horizontal(root: Node, config: TreeConfig) -> str:
     leaf_index = [0]
     def position(index: int) -> float:
         if not children[index]:
-            result = 48 + leaf_index[0] * 48
+            result = 48 + leaf_index[0] * (68 if config.boxes else 48)
             leaf_index[0] += 1
         else:
             ys = [position(child) for child in children[index]]
@@ -52,7 +52,7 @@ def svg_horizontal(root: Node, config: TreeConfig) -> str:
         y[index] = result
         return result
     position(0)
-    height = max(110, 48 + max(1, leaf_index[0]) * 48)
+    height = max(110, 48 + max(1, leaf_index[0]) * (68 if config.boxes else 48))
     # With center alignment, center the entire layout in a symmetric canvas.
     if config.align == "center":
         content_end = max(left[depth] + column_widths[depth] for depth in left)
@@ -70,8 +70,8 @@ def svg_horizontal(root: Node, config: TreeConfig) -> str:
         if parent is None:
             continue
         parent_depth = nodes[parent][1]
-        x1 = left[parent_depth] + column_widths[parent_depth] - 8 + offset
-        x2 = left[depth] - 12 + offset
+        x1 = left[parent_depth] + column_widths[parent_depth] - (2 if config.boxes else 8) + offset
+        x2 = left[depth] - (14 if config.boxes else 12) + offset
         halfway = x1 + (x2 - x1) * 0.52
         parts.append(
             f'<path d="M {x1:.1f} {y[parent]:.1f} H {halfway:.1f} '
@@ -91,9 +91,9 @@ def svg_horizontal(root: Node, config: TreeConfig) -> str:
             label += f" [{len(node.members)}]"
         if config.boxes:
             parts.append(
-                f'<rect x="{x-8:.1f}" y="{cy-20:.1f}" width="{column_widths[depth]-5:.1f}" '
-                f'height="40" rx="8" fill="{color}" fill-opacity="0.11" '
-                f'stroke="{color}" stroke-opacity="0.5"/>'
+                f'<rect x="{x-8:.1f}" y="{cy-16:.1f}" width="{min(column_widths[depth]-5, 42+len(label)*8.7):.1f}" '
+                f'height="32" rx="7" fill="{color}" fill-opacity="0.07" '
+                f'stroke="{color}" stroke-opacity="0.28" stroke-width="0.8"/>'
             )
         icon = custom_icon(node, config)
         if icon:

@@ -29,7 +29,7 @@ def svg_vertical(root: Node, config: TreeConfig) -> str:
         return index
 
     collect(root, 0, None)
-    row_height, indent, left, top = 34, 40, 28, 42
+    row_height, indent, left, top = (44 if config.boxes else 34), 40, 28, 42
     positions = [(left + depth * indent, top + index * row_height)
                  for index, (_, depth, _) in enumerate(rows)]
     width = max(480, max(
@@ -75,10 +75,10 @@ def svg_vertical(root: Node, config: TreeConfig) -> str:
         if config.boxes:
             box_width = max(84, 36 + len(label) * 9.2)
             parts.append(
-                f'<rect data-tree-node="box" x="{x-5:.1f}" y="{y-19:.1f}" '
-                f'width="{box_width:.1f}" height="38" rx="7" '
-                f'fill="{color}" fill-opacity="0.10" stroke="{color}" '
-                f'stroke-opacity="0.35"/>'
+                f'<rect data-tree-node="box" x="{x-5:.1f}" y="{y-15:.1f}" '
+                f'width="{box_width:.1f}" height="30" rx="6" '
+                f'fill="{color}" fill-opacity="0.07" stroke="{color}" '
+                f'stroke-opacity="0.25" stroke-width="0.8"/>'
             )
         icon_uri = custom_icon(node, config)
         if icon_uri:
