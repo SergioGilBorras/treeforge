@@ -141,7 +141,8 @@ def to_mermaid(root: Node, config: TreeConfig, layout: str) -> str:
     direction = "LR" if layout == "horizontal" else "TB"
     lines = ["flowchart " + direction]
     for idx, parent, node in _node_list(root):
-        name = node.name + ("/" if node.directory else "")
+        kind = category(node, config)
+        name = DEFAULT_SYMBOLS.get(kind, DEFAULT_SYMBOLS["file"]) + " " + node.name + ("/" if node.directory else "")
         if node.members and config.show_counts:
             name += f" ({len(node.members)})"
         if config.boxes:
