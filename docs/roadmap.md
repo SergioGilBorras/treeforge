@@ -10,14 +10,14 @@
 - [x] Mermaid and Graphviz exporters
 - [x] Default Unicode icons and palette configuration
 - [x] Custom SVG icon directory support in the native vertical SVG renderer
-- [ ] Precise horizontal left/center alignment
+- [x] Native horizontal SVG left/center canvas alignment
 - [ ] More robust parser diagnostics and edge cases
 
 ## v0.2 — Visual system
 
 - Bundled SVG icon pack and configurable mapping table (sample SVGs already provided in `icons/`).
 - Custom icons directory resolving `folder.svg`, `python.svg`, `image.svg`, etc.
-- SVG image embedding with secure validation, deterministic behavior and fallbacks.
+- [x] SVG image embedding with validation and fallbacks (native SVG layouts).
 - Consistent boxes, connector styles and themes across all renderers.
 - Automated visual snapshots.
 
