@@ -93,6 +93,8 @@ def custom_icon(node: Node, config: TreeConfig) -> str | None:
 
 
 def svg_vertical(root: Node, config: TreeConfig) -> str:
+    from .vertical import svg_vertical as native_vertical
+    return native_vertical(root, config)
     colors = palette(config)
     rows = list(walk_lines(root))
     line_h = 29
