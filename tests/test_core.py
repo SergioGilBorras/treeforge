@@ -33,7 +33,7 @@ def test_render(tmp_path: Path):
         output = tree.render(tmp_path / name, layout=layout)
         assert output.exists() and output.stat().st_size > 0
     assert "└──" in (tmp_path / "tree.txt").read_text(encoding="utf-8")
-    assert "flowchart LR" in (tmp_path / "tree.mmd").read_text()
+    assert "flowchart LR" in (tmp_path / "tree.mmd").read_text(encoding="utf-8")
 
 def test_invalid():
     with pytest.raises(ValueError):
