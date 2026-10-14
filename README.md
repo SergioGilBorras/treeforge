@@ -74,7 +74,7 @@ See [Getting started](docs/getting-started.md), [Rendering and layouts](docs/ren
 
 **Custom icons:** provide `--icons-dir ./icons` (or `TreeConfig(icons_dir="./icons")`) to override native vertical SVG icons with your own SVG files. Filename precedence: extension, category, then `folder.svg` / `file.svg`. TreeForge ships with Unicode fallback icons; example SVGs are available under `icons/`. See [Icon customization](docs/icons.md).
 
-## Development
+## Developer validation and diagram gallery\n\nRun the integration matrix independently of the distributable package:\n\n```bash\npython devtools/run_validation.py\n```\n\nThis generates `validation-output/report.json` and an SVG gallery at `validation-output/index.html`. It covers textual trees, actual directories, path lists, vertical/horizontal orientation, colors, boxes, SVG icons, grouping and CLI. See [Developer validation](docs/developer-validation.md).\n\n## Development
 
 ```bash
 python -m pip install -e ".[dev]"
