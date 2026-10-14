@@ -10,7 +10,7 @@ TreeForge is a Python CLI and library that reads real directories or textual fol
 
 - Inputs: real filesystem, textual tree, or path list.
 - Vertical **classic directory tree** in TXT or native SVG (optional colored background boxes).
-- Horizontal diagrams with **Graphviz** (DOT, SVG, PNG, PDF) or **Mermaid** (MMD).
+- Native horizontal SVG trees with explicit left/center alignment, plus **Graphviz** (DOT, SVG, PNG, PDF) and **Mermaid** (MMD).
 - Configurable depth, node budget, themes, and extension/category grouping.
 - Custom palette by file type (via `TreeConfig.colors`).
 - No runtime Python dependencies for native TXT/SVG/Mermaid/DOT output.
@@ -35,7 +35,7 @@ To render Graphviz SVG/PNG/PDF, install the system's Graphviz `dot` executable.
 ```bash
 treeforge render . --layout vertical --output structure.svg --max-depth 3
 treeforge render . --layout vertical --output structure.txt
-treeforge render . --layout horizontal --output structure.mmd
+treeforge render . --layout horizontal --output structure.svg --align center\ntreeforge render . --layout horizontal --output structure.mmd
 treeforge render . --layout horizontal --engine graphviz --output structure.svg
 treeforge render tree.txt --input-format tree --layout vertical --boxes --output example.svg
 ```
@@ -70,7 +70,7 @@ my-project/
 
 See [Getting started](docs/getting-started.md), [Rendering and layouts](docs/rendering.md), [Configuration](docs/configuration.md), and [Roadmap](docs/roadmap.md).
 
-**Notes on layout:** Mermaid's flowchart layout does not reproduce the exact classic connector tree; use native SVG/TXT for that. In horizontal mode Graphviz offers more geometry control; `align` currently changes spacing, not a strict bounding-box anchor.
+**Notes on layout:** Mermaid flowcharts do not reproduce the exact classic connector tree; use native SVG/TXT for vertical diagrams. Native horizontal SVG supports left/center canvas alignment. Graphviz offers an alternative automatic layout, where `align` adjusts spacing only.
 
 **Custom icons:** provide `--icons-dir ./icons` (or `TreeConfig(icons_dir="./icons")`) to override native vertical SVG icons with your own SVG files. Filename precedence: extension, category, then `folder.svg` / `file.svg`. TreeForge ships with Unicode fallback icons; example SVGs are available under `icons/`. See [Icon customization](docs/icons.md).
 
