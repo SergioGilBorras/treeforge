@@ -19,4 +19,5 @@ jobs:
           python-version: ${{ matrix.python-version }}
       - run: python -m pip install -e ".[dev]"
       - run: python -m pytest -q
-      - run: python devtools/run_validation.py\n      - run: python -m build
+      - run: python devtools/run_validation.py
+      - run: python -m build
