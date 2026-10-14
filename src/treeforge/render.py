@@ -6,6 +6,8 @@ import html
 import json
 import re
 import shutil
+import base64
+import xml.etree.ElementTree as ET
 import subprocess
 from .core import Node, TreeConfig, _categorized
 
@@ -58,6 +60,38 @@ def tree_text(root: Node, config: TreeConfig) -> str:
         rows.append(f"{prefix}{symbol} {node.name}{'/' if node.directory else ''}{count}")
     return "\n".join(rows) + "\n"
 
+def custom_icon(node: Node, config: TreeConfig) -> str | None:
+    """Return a safely embedded SVG data URI for a custom icon."""
+    if not config.icons_dir:
+        return None
+    kind = category(node, config)
+    suffix = Path(node.name).suffix.lstrip(".").lower()
+    candidates = ([suffix] if suffix else []) + [kind, "folder" if node.directory else "file"]
+    directory = Path(config.icons_dir).expanduser()
+    for candidate in candidates:
+        if not re.fullmatch(r"[a-z0-9_-]+", candidate):
+            continue
+        icon = directory / (candidate + ".svg")
+        if not icon.is_file() or icon.stat().st_size > 65536:
+            continue
+        content = icon.read_bytes()
+        try:
+            root = ET.fromstring(content)
+            forbidden = {"script", "foreignObject", "image", "animate", "set"}
+            if any(element.tag.split("}")[-1] in forbidden or any(
+                key.lower().startswith("on") or
+                key.split("}")[-1].lower() in ("href", "style")
+                for key in element.attrib
+            ) for element in root.iter()):
+                continue
+        except (ET.ParseError, UnicodeError):
+            continue
+        if root.tag.split("}")[-1] != "svg":
+            continue
+        return "data:image/svg+xml;base64," + base64.b64encode(content).decode("ascii")
+    return None
+
+
 def svg_vertical(root: Node, config: TreeConfig) -> str:
     colors = palette(config)
     rows = list(walk_lines(root))
@@ -81,7 +115,11 @@ def svg_vertical(root: Node, config: TreeConfig) -> str:
             output.append(f'<rect x="{x-5}" y="{y-19}" width="{max(100,len(label)*9.0+40)}" height="25" rx="6" fill="{color}" opacity="0.12"/>')
         output.append(f'<text x="20" y="{y}" font-family="monospace" font-size="{font_size}" fill="{colors["line"]}">{html.escape(prefix)}</text>')
         icon = DEFAULT_SYMBOLS.get(typ, DEFAULT_SYMBOLS["file"])
-        output.append(f'<text x="{x}" y="{y}" font-family="sans-serif" font-size="{font_size}">{html.escape(icon)}</text>')
+        icon_uri = custom_icon(node, config)
+        if icon_uri:
+            output.append(f'<image x="{x}" y="{y-17}" width="19" height="19" href="{icon_uri}"/>')
+        else:
+            output.append(f'<text x="{x}" y="{y}" font-family="sans-serif" font-size="{font_size}">{html.escape(icon)}</text>')
         output.append(f'<text x="{x+26}" y="{y}" font-family="monospace" font-size="{font_size}" fill="{color}">{html.escape(label)}</text>')
     output.append("</svg>")
     return "\n".join(output)
@@ -106,11 +144,10 @@ def to_mermaid(root: Node, config: TreeConfig, layout: str) -> str:
         name = node.name + ("/" if node.directory else "")
         if node.members and config.show_counts:
             name += f" ({len(node.members)})"
-        safe = json.dumps(name, ensure_ascii=False)
         if config.boxes:
             lines.append(f'    n{idx}["{_escape_mermaid(name)}"]')
         else:
-            lines.append(f'    n{idx}["{_escape_mermaid(name)}"]')
+            lines.append(f'    n{idx}("{_escape_mermaid(name)}")')
         if parent is not None:
             lines.append(f"    n{parent} --> n{idx}")
     for idx, _, node in _node_list(root):
