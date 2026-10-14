@@ -3,7 +3,7 @@ from __future__ import annotations
 
 import html
 from .core import Node, TreeConfig
-from .render import category, palette, custom_icon, DEFAULT_SYMBOLS
+from .render import category, palette, custom_icon, file_symbol
 
 
 def svg_horizontal(root: Node, config: TreeConfig) -> str:
@@ -99,7 +99,7 @@ def svg_horizontal(root: Node, config: TreeConfig) -> str:
         if icon:
             parts.append(f'<image x="{x:.1f}" y="{cy-11:.1f}" width="22" height="22" href="{icon}"/>')
         else:
-            symbol = DEFAULT_SYMBOLS.get(kind, DEFAULT_SYMBOLS["file"])
+            symbol = file_symbol(node, config)
             parts.append(
                 f'<text x="{x:.1f}" y="{cy+6:.1f}" font-size="18" '
                 f'font-family="sans-serif">{html.escape(symbol)}</text>'
