@@ -12,7 +12,11 @@ DEFAULT_GROUPS = {
     "images": (".png", ".jpg", ".jpeg", ".gif", ".webp", ".svg", ".bmp"),
     "documents": (".md", ".rst", ".txt", ".pdf"),
     "data": (".json", ".yaml", ".yml", ".csv", ".xml"),
-    "spreadsheets": (".xls", ".xlsx", ".ods"),
+    "spreadsheets": (".xls", ".xlsx", ".xlsm", ".ods"),
+    "presentations": (".ppt", ".pptx", ".odp"),
+    "archives": (".zip", ".tar", ".gz", ".7z", ".rar"),
+    "audio": (".mp3", ".wav", ".flac"),
+    "video": (".mp4", ".mov", ".mkv"),
 }
 DEFAULT_EXCLUDES = (".git", ".venv", "__pycache__", "node_modules", ".mypy_cache", ".pytest_cache")
 DEFAULT_PRESERVE = ("README.md", "pyproject.toml", "Dockerfile", "main.py")
