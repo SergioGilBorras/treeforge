@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="463" viewBox="0 0 760 463">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="20" y="32" font-family="monospace" font-size="15" fill="#a3b3c7"></text>
+<text x="20" y="32" font-family="sans-serif" font-size="15">📁</text>
+<text x="46" y="32" font-family="monospace" font-size="15" fill="#376aab">treeforge/</text>
+<text x="20" y="61" font-family="monospace" font-size="15" fill="#a3b3c7">├── </text>
+<text x="54" y="61" font-family="sans-serif" font-size="15">📁</text>
+<text x="80" y="61" font-family="monospace" font-size="15" fill="#376aab">src/</text>
+<text x="20" y="90" font-family="monospace" font-size="15" fill="#a3b3c7">│   ├── </text>
+<text x="88" y="90" font-family="sans-serif" font-size="15">📁</text>
+<text x="114" y="90" font-family="monospace" font-size="15" fill="#376aab">core/</text>
+<text x="20" y="119" font-family="monospace" font-size="15" fill="#a3b3c7">│   │   ├── </text>
+<text x="122" y="119" font-family="sans-serif" font-size="15">🐍</text>
+<text x="148" y="119" font-family="monospace" font-size="15" fill="#438b56">parser.py</text>
+<text x="20" y="148" font-family="monospace" font-size="15" fill="#a3b3c7">│   │   └── </text>
+<text x="122" y="148" font-family="sans-serif" font-size="15">🐍</text>
+<text x="148" y="148" font-family="monospace" font-size="15" fill="#438b56">renderer.py</text>
+<text x="20" y="177" font-family="monospace" font-size="15" fill="#a3b3c7">│   └── </text>
+<text x="88" y="177" font-family="sans-serif" font-size="15">🐍</text>
+<text x="114" y="177" font-family="monospace" font-size="15" fill="#438b56">cli.py</text>
+<text x="20" y="206" font-family="monospace" font-size="15" fill="#a3b3c7">├── </text>
+<text x="54" y="206" font-family="sans-serif" font-size="15">📁</text>
+<text x="80" y="206" font-family="monospace" font-size="15" fill="#376aab">assets/</text>
+<text x="20" y="235" font-family="monospace" font-size="15" fill="#a3b3c7">│   └── </text>
+<text x="88" y="235" font-family="sans-serif" font-size="15">🖼️</text>
+<text x="114" y="235" font-family="monospace" font-size="15" fill="#a855a0">Images (5 files)</text>
+<text x="20" y="264" font-family="monospace" font-size="15" fill="#a3b3c7">├── </text>
+<text x="54" y="264" font-family="sans-serif" font-size="15">📁</text>
+<text x="80" y="264" font-family="monospace" font-size="15" fill="#376aab">data/</text>
+<text x="20" y="293" font-family="monospace" font-size="15" fill="#a3b3c7">│   └── </text>
+<text x="88" y="293" font-family="sans-serif" font-size="15">🧩</text>
+<text x="114" y="293" font-family="monospace" font-size="15" fill="#d1872c">report_*.json [3]</text>
+<text x="20" y="322" font-family="monospace" font-size="15" fill="#a3b3c7">├── </text>
+<text x="54" y="322" font-family="sans-serif" font-size="15">📁</text>
+<text x="80" y="322" font-family="monospace" font-size="15" fill="#376aab">docs/</text>
+<text x="20" y="351" font-family="monospace" font-size="15" fill="#a3b3c7">│   └── </text>
+<text x="88" y="351" font-family="sans-serif" font-size="15">📝</text>
+<text x="114" y="351" font-family="monospace" font-size="15" fill="#39865f">Guides (4 files)</text>
+<text x="20" y="380" font-family="monospace" font-size="15" fill="#a3b3c7">├── </text>
+<text x="54" y="380" font-family="sans-serif" font-size="15">📁</text>
+<text x="80" y="380" font-family="monospace" font-size="15" fill="#376aab">tests/</text>
+<text x="20" y="409" font-family="monospace" font-size="15" fill="#a3b3c7">│   └── </text>
+<text x="88" y="409" font-family="sans-serif" font-size="15">🐍</text>
+<text x="114" y="409" font-family="monospace" font-size="15" fill="#438b56">test_*.py [6]</text>
+<text x="20" y="438" font-family="monospace" font-size="15" fill="#a3b3c7">└── </text>
+<text x="54" y="438" font-family="sans-serif" font-size="15">📝</text>
+<text x="80" y="438" font-family="monospace" font-size="15" fill="#39865f">README.md</text>
+</svg>
