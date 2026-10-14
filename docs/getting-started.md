@@ -22,3 +22,4 @@ tree.render("overview.svg")
 ```
 
 The source tree remains intact in memory; grouping and truncation are computed on a separate simplified tree.
+\nFor visual and integration regression checks, run `python devtools/run_validation.py` and open `validation-output/index.html`.\n
