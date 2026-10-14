@@ -23,8 +23,32 @@ DARK_PALETTE = {
 }
 DEFAULT_SYMBOLS = {
     "folder": "📁", "images": "🖼️", "documents": "📝", "data": "🧩",
-    "spreadsheets": "📊", "py": "🐍", "file": "📄",
+    "spreadsheets": "📊", "presentations": "📽️", "archives": "🗜️",
+    "code": "💻", "audio": "🎵", "video": "🎬", "file": "📄",
+    "py": "🐍", "json": "🧩", "jsonl": "🧩", "yaml": "⚙️",
+    "yml": "⚙️", "xml": "🧩", "csv": "📊", "txt": "📃",
+    "md": "📝", "rst": "📝", "pdf": "📕",
+    "doc": "📘", "docx": "📘", "odt": "📘",
+    "xls": "📗", "xlsx": "📗", "xlsm": "📗", "ods": "📗",
+    "ppt": "📙", "pptx": "📙", "odp": "📙",
+    "zip": "🗜️", "tar": "🗜️", "gz": "🗜️", "7z": "🗜️", "rar": "🗜️",
+    "html": "🌐", "css": "🎨", "js": "🟨", "ts": "🔷",
+    "ipynb": "📓", "sql": "🗄️", "toml": "⚙️", "ini": "⚙️",
+    "jpg": "🖼️", "jpeg": "🖼️", "png": "🖼️", "svg": "🖼️",
+    "mp3": "🎵", "wav": "🎵", "mp4": "🎬", "mov": "🎬",
 }
+
+
+def file_symbol(node: Node, config: TreeConfig) -> str:
+    if node.directory:
+        return DEFAULT_SYMBOLS["folder"]
+    if node.members:
+        return DEFAULT_SYMBOLS.get(category(node, config), DEFAULT_SYMBOLS["file"])
+    extension = Path(node.name).suffix.lower().lstrip(".")
+    return DEFAULT_SYMBOLS.get(extension, DEFAULT_SYMBOLS.get(
+        category(node, config), DEFAULT_SYMBOLS["file"]))
+
+
 def palette(config: TreeConfig) -> dict[str, str]:
     result = dict(DARK_PALETTE if config.theme == "dark" else DEFAULT_PALETTE)
     result.update(config.colors)
@@ -55,7 +79,7 @@ def tree_text(root: Node, config: TreeConfig) -> str:
     rows = []
     for prefix, node in walk_lines(root):
         typ = category(node, config)
-        symbol = symbols.get(typ, symbols["file"])
+        symbol = file_symbol(node, config)
         count = f" [{len(node.members)}]" if node.members and config.show_counts else ""
         rows.append(f"{prefix}{symbol} {node.name}{'/' if node.directory else ''}{count}")
     return "\n".join(rows) + "\n"
@@ -116,7 +140,7 @@ def svg_vertical(root: Node, config: TreeConfig) -> str:
         if config.boxes:
             output.append(f'<rect x="{x-5}" y="{y-19}" width="{max(100,len(label)*9.0+40)}" height="25" rx="6" fill="{color}" opacity="0.12"/>')
         output.append(f'<text x="20" y="{y}" font-family="monospace" font-size="{font_size}" fill="{colors["line"]}">{html.escape(prefix)}</text>')
-        icon = DEFAULT_SYMBOLS.get(typ, DEFAULT_SYMBOLS["file"])
+        icon = file_symbol(node, config)
         icon_uri = custom_icon(node, config)
         if icon_uri:
             output.append(f'<image x="{x}" y="{y-17}" width="19" height="19" href="{icon_uri}"/>')
@@ -144,7 +168,7 @@ def to_mermaid(root: Node, config: TreeConfig, layout: str) -> str:
     lines = ["flowchart " + direction]
     for idx, parent, node in _node_list(root):
         kind = category(node, config)
-        name = DEFAULT_SYMBOLS.get(kind, DEFAULT_SYMBOLS["file"]) + " " + node.name + ("/" if node.directory else "")
+        name = file_symbol(node, config) + " " + node.name + ("/" if node.directory else "")
         if node.members and config.show_counts:
             name += f" ({len(node.members)})"
         if config.boxes:
