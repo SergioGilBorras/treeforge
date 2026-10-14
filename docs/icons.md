@@ -1,17 +1,26 @@
-# Icons and icon packs
+# Icons and customization
 
-TreeForge always has built-in Unicode fallback icons. To customize the **native vertical SVG** renderer, pass a directory of your own small, self-contained SVG icons:
+TreeForge selects Unicode symbols by file type and uses them as fallbacks in native SVG and TXT output. For native vertical and horizontal SVG, custom SVG icon files can be provided through `--icons-dir`.
 
 ```bash
-treeforge render . -o tree.svg --icons-dir ./icons
+treeforge render . --icons-dir ./icons --output tree.svg
+treeforge render . --icons-dir ./icons --layout horizontal --output horizontal.svg
 ```
 
-Or from Python: `TreeConfig(icons_dir="./icons")`.
+Python API: `TreeConfig(icons_dir="./icons")`.
 
-For each node, icons are selected in this order: **file extension** (e.g. `py.svg`, `json.svg`), **category** (e.g. `images.svg`, `data.svg`), and **fallback kind** (`folder.svg` or `file.svg`). The first usable icon is embedded directly in the final SVG. Sample icons are located in the repository's [icons directory](../icons/). Copy and edit them freely.
+## Icon lookup
 
-The icon importer accepts small SVG files (64 KiB maximum each) and rejects scripting, external references and embedded images. Restrict custom packs to trusted assets. If no suitable icon is found, a Unicode icon is displayed.
+TreeForge looks in the supplied directory in this order:
 
-**Current scope:** custom SVG icons apply to native SVG output in vertical and horizontal layouts; the Mermaid/Graphviz and TXT exporters do not currently embed those icons. In this first release, built-in defaults are Unicode, not bundled SVG icon replacements.
+1. File extension, e.g. `py.svg` or `json.svg`.
+2. Category, e.g. `images.svg`, `documents.svg`, `data.svg`.
+3. General fallback: `folder.svg` or `file.svg`.
 
-Planned upgrades: configurable mapping table, SVG-backed built-in icon pack, horizontal icon support, richer inheritance and fully consistent renderer themes.
+Example SVG assets are available in [icons/](../icons/). Custom SVG assets must be self-contained, no larger than 64 KiB, and must not include scripts, external references or embedded images.
+
+Mermaid diagrams use file-type Unicode symbols within labels. Graphviz uses styled labels; native SVG supports embedded custom icons.
+
+## Future directions
+
+A configurable icon-name mapping, a complete distributable SVG collection and additional renderer-specific icon integration are planned.

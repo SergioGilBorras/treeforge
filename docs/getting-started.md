@@ -1,25 +1,51 @@
 # Getting started
 
-Requires Python 3.10+.
+TreeForge requires Python 3.10 or later.
+
+## Install from the repository
 
 ```bash
-pip install -e ".[dev]"
-treeforge render . -o tree.svg --max-depth 2
+python -m pip install .
 ```
 
-Supported source forms: a real directory, a text file containing a conventional `tree` listing, or path-list input through `TreeForge.from_paths(["src/main.py", "docs/guide.md"])`.
+## Render a real directory
 
-```python
-from treeforge import TreeForge
+```bash
+treeforge render ./project --output tree.svg
+treeforge render ./project --layout horizontal --boxes --output horizontal.svg
+```
 
-tree = TreeForge.from_text("""project/
+By default, TreeForge generates a **vertical SVG without boxes**.
+
+## Render a text tree
+
+Create a file called `structure.txt`:
+
+```text
+project/
 ├── src/
 │   ├── main.py
 │   └── utils.py
 └── README.md
-""")
-tree.render("overview.svg")
 ```
 
-The source tree remains intact in memory; grouping and truncation are computed on a separate simplified tree.
-\nFor visual and integration regression checks, run `python devtools/run_validation.py` and open `validation-output/index.html`.\n
+```bash
+treeforge render structure.txt --input-format tree --output structure.svg
+```
+
+## Python API
+
+```python
+from treeforge import TreeForge, TreeConfig
+
+config = TreeConfig(max_depth=3, boxes=False, theme="light")
+tree = TreeForge.from_directory("./project", config)
+tree.render("project.svg", layout="vertical")
+
+from_text = TreeForge.from_text("project/\n├── src/\n│   └── app.py\n└── README.md")
+from_text.render("diagram.svg")
+```
+
+For path-list input, use `TreeForge.from_paths(["src/main.py", "docs/guide.md"])`.
+
+See [configuration](configuration.md) and [rendering](rendering.md) for other options.

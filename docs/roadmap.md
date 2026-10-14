@@ -1,29 +1,23 @@
 # Roadmap
 
-## v0.1 — Foundation
+This page describes proposed future capabilities. Features available in the current development version are documented in the [user guides](README.md).
 
-- [x] Installable Python package and CLI
-- [x] Real-directory reader and text-tree parser
-- [x] Depth and node budgets
-- [x] Conservative grouping by numeric prefix and extension/category
-- [x] Classical native TXT/SVG vertical layout
-- [x] Mermaid and Graphviz exporters
-- [x] Default Unicode icons and palette configuration
-- [x] Custom SVG icon directory support in the native vertical SVG renderer
-- [x] Native horizontal SVG left/center canvas alignment
-- [ ] More robust parser diagnostics and edge cases
+## Visual experience
 
-## v0.2 — Visual system
+- Visual regression snapshots and automated geometry comparisons for more complex trees.
+- Additional icon packs and configurable icon-name mapping.
+- Shared theme presets for native SVG, Mermaid and Graphviz.
+- Improved layout measurements for unusually long filenames and Unicode text.
 
-- Bundled SVG icon pack and configurable mapping table (sample SVGs already provided in `icons/`).
-- Custom icons directory resolving `folder.svg`, `python.svg`, `image.svg`, etc.
-- [x] SVG image embedding with validation and fallbacks (native SVG layouts).
-- Consistent boxes, connector styles and themes across all renderers.
-- Automated visual snapshots.
+## Readers and transformation
 
-## v0.3 — Production readiness
+- Gitignore-aware filesystem scanning.
+- Extended text-tree parsing and more descriptive validation messages.
+- Additional grouping rules, including date patterns and user-supplied matchers.
+- Optional tree comparison and snapshot views.
 
-- Gitignore support, Unicode/parser edge cases, stress testing.
-- Interactive HTML output and group inspection.
-- Cross-platform CI, wheel/sdist verification and versioned documentation.
-- Stable API and publishing workflow.
+## Distribution and integrations
+
+- Interactive HTML explorer with expandable grouped files.
+- Versioned documentation website and automated release workflows.
+- Stable public API and PyPI publication.
