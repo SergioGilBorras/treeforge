@@ -8,7 +8,7 @@ from __future__ import annotations
 import html
 from pathlib import Path
 from .core import Node, TreeConfig
-from .render import palette, category, DEFAULT_SYMBOLS, custom_icon
+from .render import palette, category, file_symbol, custom_icon
 
 
 def svg_vertical(root: Node, config: TreeConfig) -> str:
@@ -87,7 +87,7 @@ def svg_vertical(root: Node, config: TreeConfig) -> str:
                 f'href="{icon_uri}"/>'
             )
         else:
-            symbol = DEFAULT_SYMBOLS.get(kind, DEFAULT_SYMBOLS["file"])
+            symbol = file_symbol(node, config)
             parts.append(f'<text x="{x:.1f}" y="{y+6:.1f}" '
                          f'font-family="sans-serif" font-size="18">{html.escape(symbol)}</text>')
         parts.append(f'<text x="{x+29:.1f}" y="{y+5:.1f}" '
