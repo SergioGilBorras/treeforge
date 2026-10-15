@@ -23,5 +23,5 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/examples/*-plain.svg docs/examples/*-boxes.svg
+          git add docs/examples/*.svg
           git diff --cached --quiet || (git commit -m "docs: regenerate SVG previews using TreeForge" && git push)
