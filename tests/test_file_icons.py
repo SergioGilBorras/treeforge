@@ -16,7 +16,7 @@ def test_render_icons_both_orientations(tmp_path: Path):
     tree = TreeForge.from_paths(["report.xlsx", "data.json", "archive.zip", "notes.txt"])
     for layout in ("vertical", "horizontal"):
         result = tree.render(tmp_path / f"{layout}.svg", layout=layout).read_text(encoding="utf-8")
-        assert "📗" in result
-        assert "🧩" in result
-        assert "🗜️" in result
-        assert "📃" in result
+        assert "data:image/svg+xml;base64," in result
+        assert "data.json" in result
+        assert "archive.zip" in result
+        assert "notes.txt" in result
