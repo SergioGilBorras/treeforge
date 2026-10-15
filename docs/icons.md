@@ -1,6 +1,22 @@
 # Icons and customization
 
-TreeForge selects Unicode symbols by file type and uses them as fallbacks in native SVG and TXT output. For native vertical and horizontal SVG, custom SVG icon files can be provided through `--icons-dir`.
+TreeForge uses expressive file-type symbols by default, including folder, images, Word, Excel, PowerPoint, JSON, ZIP, TXT, music, and video. The default vertical diagram is shown on the [home page](index.md).
+
+## Compare icon styles
+
+**Default icons:**
+
+![TreeForge default icons](examples/vertical-plain.svg)
+
+**Custom SVG icons using the same tree:**
+
+![TreeForge custom SVG icons](examples/vertical-plain-custom.svg)
+
+The [full comparison gallery](examples/README.md) includes vertical and horizontal diagrams, with and without boxes, for both icon styles.
+
+## Custom SVG directory
+
+Use SVG files named after extensions, categories or general node types:
 
 ```bash
 treeforge render . --icons-dir ./icons --output tree.svg
@@ -9,18 +25,6 @@ treeforge render . --icons-dir ./icons --layout horizontal --output horizontal.s
 
 Python API: `TreeConfig(icons_dir="./icons")`.
 
-## Icon lookup
+For each file, TreeForge checks the extension first (`json.svg`, `xlsx.svg`), then the category (`images.svg`, `documents.svg`), then `folder.svg` or `file.svg`. SVG files must be self-contained and no larger than 64 KiB; embedded scripts and external references are rejected.
 
-TreeForge looks in the supplied directory in this order:
-
-1. File extension, e.g. `py.svg` or `json.svg`.
-2. Category, e.g. `images.svg`, `documents.svg`, `data.svg`.
-3. General fallback: `folder.svg` or `file.svg`.
-
-Example SVG assets are available in [icons/](../icons/). Custom SVG assets must be self-contained, no larger than 64 KiB, and must not include scripts, external references or embedded images.
-
-Mermaid diagrams use file-type Unicode symbols within labels. Graphviz uses styled labels; native SVG supports embedded custom icons.
-
-## Future directions
-
-A configurable icon-name mapping, a complete distributable SVG collection and additional renderer-specific icon integration are planned.
+Sample icon files are in the [repository icons directory](https://github.com/SergioGilBorras/treeforge/tree/feat/initial-treeforge-package/icons).
