@@ -27,3 +27,5 @@ python devtools/generate_previews.py
 ```
 
 The four standard filenames always use default icons; the four files ending in `-custom.svg` use the custom icon directory.
+
+The image files are committed to the repository and can be viewed directly on GitHub or through the documentation website.
