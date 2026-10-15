@@ -1,47 +1,77 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="935" height="432" viewBox="0 0 935 432">
+<svg xmlns="http://www.w3.org/2000/svg" width="935" height="768" viewBox="0 0 935 768">
 <rect width="100%" height="100%" fill="#ffffff"/>
-<path d="M 163.0 216.0 H 194.2 V 48.0 H 223.0" fill="none" stroke="#a3b3c7" stroke-width="1.5"/>
+<path d="M 163.0 384.0 H 194.2 V 48.0 H 223.0" fill="none" stroke="#a3b3c7" stroke-width="1.5"/>
 <path d="M 359.3 48.0 H 390.5 V 48.0 H 419.3" fill="none" stroke="#a3b3c7" stroke-width="1.5"/>
-<path d="M 163.0 216.0 H 194.2 V 96.0 H 223.0" fill="none" stroke="#a3b3c7" stroke-width="1.5"/>
+<path d="M 163.0 384.0 H 194.2 V 96.0 H 223.0" fill="none" stroke="#a3b3c7" stroke-width="1.5"/>
 <path d="M 359.3 96.0 H 390.5 V 96.0 H 419.3" fill="none" stroke="#a3b3c7" stroke-width="1.5"/>
-<path d="M 163.0 216.0 H 194.2 V 144.0 H 223.0" fill="none" stroke="#a3b3c7" stroke-width="1.5"/>
-<path d="M 359.3 144.0 H 390.5 V 144.0 H 419.3" fill="none" stroke="#a3b3c7" stroke-width="1.5"/>
-<path d="M 163.0 216.0 H 194.2 V 252.0 H 223.0" fill="none" stroke="#a3b3c7" stroke-width="1.5"/>
-<path d="M 359.3 252.0 H 390.5 V 216.0 H 419.3" fill="none" stroke="#a3b3c7" stroke-width="1.5"/>
-<path d="M 625.2 216.0 H 656.4 V 192.0 H 685.2" fill="none" stroke="#a3b3c7" stroke-width="1.5"/>
-<path d="M 625.2 216.0 H 656.4 V 240.0 H 685.2" fill="none" stroke="#a3b3c7" stroke-width="1.5"/>
-<path d="M 359.3 252.0 H 390.5 V 288.0 H 419.3" fill="none" stroke="#a3b3c7" stroke-width="1.5"/>
-<path d="M 163.0 216.0 H 194.2 V 336.0 H 223.0" fill="none" stroke="#a3b3c7" stroke-width="1.5"/>
-<path d="M 359.3 336.0 H 390.5 V 336.0 H 419.3" fill="none" stroke="#a3b3c7" stroke-width="1.5"/>
-<path d="M 163.0 216.0 H 194.2 V 384.0 H 223.0" fill="none" stroke="#a3b3c7" stroke-width="1.5"/>
-<image x="30.0" y="205.0" width="22" height="22" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHJlY3QgeD0iMS41IiB5PSIxLjUiIHdpZHRoPSIyMSIgaGVpZ2h0PSIyMSIgcng9IjUiIGZpbGw9IiM0ZDg5ZGEiLz48dGV4dCB4PSIxMiIgeT0iMTUuNSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIxMSIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmaWxsPSIjZmZmIj5GPC90ZXh0Pjwvc3ZnPgo="/>
-<text x="59.0" y="221.0" fill="#376aab" font-size="14" font-family="monospace">treeforge/</text>
-<image x="235.0" y="37.0" width="22" height="22" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHJlY3QgeD0iMS41IiB5PSIxLjUiIHdpZHRoPSIyMSIgaGVpZ2h0PSIyMSIgcng9IjUiIGZpbGw9IiM0ZDg5ZGEiLz48dGV4dCB4PSIxMiIgeT0iMTUuNSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIxMSIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmaWxsPSIjZmZmIj5GPC90ZXh0Pjwvc3ZnPgo="/>
-<text x="264.0" y="53.0" fill="#376aab" font-size="14" font-family="monospace">assets/</text>
-<image x="431.3" y="37.0" width="22" height="22" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHJlY3QgeD0iMS41IiB5PSIxLjUiIHdpZHRoPSIyMSIgaGVpZ2h0PSIyMSIgcng9IjUiIGZpbGw9IiNiZjY1YmQiLz48dGV4dCB4PSIxMiIgeT0iMTUuNSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSI3IiBmb250LXdlaWdodD0iYm9sZCIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZpbGw9IiNmZmYiPklNRzwvdGV4dD48L3N2Zz4K"/>
-<text x="460.3" y="53.0" fill="#a855a0" font-size="14" font-family="monospace">image_*.png [3]</text>
-<image x="235.0" y="85.0" width="22" height="22" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHJlY3QgeD0iMS41IiB5PSIxLjUiIHdpZHRoPSIyMSIgaGVpZ2h0PSIyMSIgcng9IjUiIGZpbGw9IiM0ZDg5ZGEiLz48dGV4dCB4PSIxMiIgeT0iMTUuNSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIxMSIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmaWxsPSIjZmZmIj5GPC90ZXh0Pjwvc3ZnPgo="/>
-<text x="264.0" y="101.0" fill="#d1872c" font-size="14" font-family="monospace">data/</text>
-<image x="431.3" y="85.0" width="22" height="22" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHJlY3QgeD0iMS41IiB5PSIxLjUiIHdpZHRoPSIyMSIgaGVpZ2h0PSIyMSIgcng9IjUiIGZpbGw9IiNiYjg4M2IiLz48dGV4dCB4PSIxMiIgeT0iMTUuNSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIxMSIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmaWxsPSIjZmZmIj57fTwvdGV4dD48L3N2Zz4K"/>
-<text x="460.3" y="101.0" fill="#d1872c" font-size="14" font-family="monospace">report_*.json [3]</text>
-<image x="235.0" y="133.0" width="22" height="22" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHJlY3QgeD0iMS41IiB5PSIxLjUiIHdpZHRoPSIyMSIgaGVpZ2h0PSIyMSIgcng9IjUiIGZpbGw9IiM0ZDg5ZGEiLz48dGV4dCB4PSIxMiIgeT0iMTUuNSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIxMSIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmaWxsPSIjZmZmIj5GPC90ZXh0Pjwvc3ZnPgo="/>
-<text x="264.0" y="149.0" fill="#376aab" font-size="14" font-family="monospace">docs/</text>
-<image x="431.3" y="133.0" width="22" height="22" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHJlY3QgeD0iMS41IiB5PSIxLjUiIHdpZHRoPSIyMSIgaGVpZ2h0PSIyMSIgcng9IjUiIGZpbGw9IiM0MDhkNjUiLz48dGV4dCB4PSIxMiIgeT0iMTUuNSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSI3IiBmb250LXdlaWdodD0iYm9sZCIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZpbGw9IiNmZmYiPkRPQzwvdGV4dD48L3N2Zz4K"/>
-<text x="460.3" y="149.0" fill="#39865f" font-size="14" font-family="monospace">guide.md</text>
-<image x="235.0" y="241.0" width="22" height="22" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHJlY3QgeD0iMS41IiB5PSIxLjUiIHdpZHRoPSIyMSIgaGVpZ2h0PSIyMSIgcng9IjUiIGZpbGw9IiM0ZDg5ZGEiLz48dGV4dCB4PSIxMiIgeT0iMTUuNSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIxMSIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmaWxsPSIjZmZmIj5GPC90ZXh0Pjwvc3ZnPgo="/>
-<text x="264.0" y="257.0" fill="#376aab" font-size="14" font-family="monospace">src/</text>
-<image x="431.3" y="205.0" width="22" height="22" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHJlY3QgeD0iMS41IiB5PSIxLjUiIHdpZHRoPSIyMSIgaGVpZ2h0PSIyMSIgcng9IjUiIGZpbGw9IiM0ZDg5ZGEiLz48dGV4dCB4PSIxMiIgeT0iMTUuNSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIxMSIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmaWxsPSIjZmZmIj5GPC90ZXh0Pjwvc3ZnPgo="/>
-<text x="460.3" y="221.0" fill="#376aab" font-size="14" font-family="monospace">core/</text>
-<image x="697.2" y="181.0" width="22" height="22" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHJlY3QgeD0iMS41IiB5PSIxLjUiIHdpZHRoPSIyMSIgaGVpZ2h0PSIyMSIgcng9IjUiIGZpbGw9IiMzNzc3YWEiLz48dGV4dCB4PSIxMiIgeT0iMTUuNSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIxMSIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmaWxsPSIjZmZmIj5QeTwvdGV4dD48L3N2Zz4K"/>
-<text x="726.2" y="197.0" fill="#68788c" font-size="14" font-family="monospace">parser.py</text>
-<image x="697.2" y="229.0" width="22" height="22" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHJlY3QgeD0iMS41IiB5PSIxLjUiIHdpZHRoPSIyMSIgaGVpZ2h0PSIyMSIgcng9IjUiIGZpbGw9IiMzNzc3YWEiLz48dGV4dCB4PSIxMiIgeT0iMTUuNSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIxMSIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmaWxsPSIjZmZmIj5QeTwvdGV4dD48L3N2Zz4K"/>
-<text x="726.2" y="245.0" fill="#68788c" font-size="14" font-family="monospace">renderer.py</text>
-<image x="431.3" y="277.0" width="22" height="22" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHJlY3QgeD0iMS41IiB5PSIxLjUiIHdpZHRoPSIyMSIgaGVpZ2h0PSIyMSIgcng9IjUiIGZpbGw9IiMzNzc3YWEiLz48dGV4dCB4PSIxMiIgeT0iMTUuNSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIxMSIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmaWxsPSIjZmZmIj5QeTwvdGV4dD48L3N2Zz4K"/>
-<text x="460.3" y="293.0" fill="#68788c" font-size="14" font-family="monospace">cli.py</text>
-<image x="235.0" y="325.0" width="22" height="22" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHJlY3QgeD0iMS41IiB5PSIxLjUiIHdpZHRoPSIyMSIgaGVpZ2h0PSIyMSIgcng9IjUiIGZpbGw9IiM0ZDg5ZGEiLz48dGV4dCB4PSIxMiIgeT0iMTUuNSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIxMSIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmaWxsPSIjZmZmIj5GPC90ZXh0Pjwvc3ZnPgo="/>
-<text x="264.0" y="341.0" fill="#376aab" font-size="14" font-family="monospace">tests/</text>
-<image x="431.3" y="325.0" width="22" height="22" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHJlY3QgeD0iMS41IiB5PSIxLjUiIHdpZHRoPSIyMSIgaGVpZ2h0PSIyMSIgcng9IjUiIGZpbGw9IiMzNzc3YWEiLz48dGV4dCB4PSIxMiIgeT0iMTUuNSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIxMSIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmaWxsPSIjZmZmIj5QeTwvdGV4dD48L3N2Zz4K"/>
-<text x="460.3" y="341.0" fill="#68788c" font-size="14" font-family="monospace">test_core.py</text>
-<image x="235.0" y="373.0" width="22" height="22" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHJlY3QgeD0iMS41IiB5PSIxLjUiIHdpZHRoPSIyMSIgaGVpZ2h0PSIyMSIgcng9IjUiIGZpbGw9IiM0MDhkNjUiLz48dGV4dCB4PSIxMiIgeT0iMTUuNSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSI3IiBmb250LXdlaWdodD0iYm9sZCIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZpbGw9IiNmZmYiPkRPQzwvdGV4dD48L3N2Zz4K"/>
-<text x="264.0" y="389.0" fill="#39865f" font-size="14" font-family="monospace">README.md</text>
+<path d="M 163.0 384.0 H 194.2 V 168.0 H 223.0" fill="none" stroke="#a3b3c7" stroke-width="1.5"/>
+<path d="M 359.3 168.0 H 390.5 V 144.0 H 419.3" fill="none" stroke="#a3b3c7" stroke-width="1.5"/>
+<path d="M 359.3 168.0 H 390.5 V 192.0 H 419.3" fill="none" stroke="#a3b3c7" stroke-width="1.5"/>
+<path d="M 163.0 384.0 H 194.2 V 240.0 H 223.0" fill="none" stroke="#a3b3c7" stroke-width="1.5"/>
+<path d="M 359.3 240.0 H 390.5 V 240.0 H 419.3" fill="none" stroke="#a3b3c7" stroke-width="1.5"/>
+<path d="M 163.0 384.0 H 194.2 V 312.0 H 223.0" fill="none" stroke="#a3b3c7" stroke-width="1.5"/>
+<path d="M 359.3 312.0 H 390.5 V 288.0 H 419.3" fill="none" stroke="#a3b3c7" stroke-width="1.5"/>
+<path d="M 359.3 312.0 H 390.5 V 336.0 H 419.3" fill="none" stroke="#a3b3c7" stroke-width="1.5"/>
+<path d="M 163.0 384.0 H 194.2 V 432.0 H 223.0" fill="none" stroke="#a3b3c7" stroke-width="1.5"/>
+<path d="M 359.3 432.0 H 390.5 V 384.0 H 419.3" fill="none" stroke="#a3b3c7" stroke-width="1.5"/>
+<path d="M 359.3 432.0 H 390.5 V 432.0 H 419.3" fill="none" stroke="#a3b3c7" stroke-width="1.5"/>
+<path d="M 359.3 432.0 H 390.5 V 480.0 H 419.3" fill="none" stroke="#a3b3c7" stroke-width="1.5"/>
+<path d="M 163.0 384.0 H 194.2 V 588.0 H 223.0" fill="none" stroke="#a3b3c7" stroke-width="1.5"/>
+<path d="M 359.3 588.0 H 390.5 V 552.0 H 419.3" fill="none" stroke="#a3b3c7" stroke-width="1.5"/>
+<path d="M 625.2 552.0 H 656.4 V 528.0 H 685.2" fill="none" stroke="#a3b3c7" stroke-width="1.5"/>
+<path d="M 625.2 552.0 H 656.4 V 576.0 H 685.2" fill="none" stroke="#a3b3c7" stroke-width="1.5"/>
+<path d="M 359.3 588.0 H 390.5 V 624.0 H 419.3" fill="none" stroke="#a3b3c7" stroke-width="1.5"/>
+<path d="M 163.0 384.0 H 194.2 V 672.0 H 223.0" fill="none" stroke="#a3b3c7" stroke-width="1.5"/>
+<path d="M 359.3 672.0 H 390.5 V 672.0 H 419.3" fill="none" stroke="#a3b3c7" stroke-width="1.5"/>
+<path d="M 163.0 384.0 H 194.2 V 720.0 H 223.0" fill="none" stroke="#a3b3c7" stroke-width="1.5"/>
+<text x="30.0" y="390.0" font-size="18" font-family="sans-serif">📁</text>
+<text x="59.0" y="389.0" fill="#376aab" font-size="14" font-family="monospace">treeforge/</text>
+<text x="235.0" y="54.0" font-size="18" font-family="sans-serif">📁</text>
+<text x="264.0" y="53.0" fill="#376aab" font-size="14" font-family="monospace">archives/</text>
+<text x="431.3" y="54.0" font-size="18" font-family="sans-serif">🗜️</text>
+<text x="460.3" y="53.0" fill="#68788c" font-size="14" font-family="monospace">backup.zip</text>
+<text x="235.0" y="102.0" font-size="18" font-family="sans-serif">📁</text>
+<text x="264.0" y="101.0" fill="#376aab" font-size="14" font-family="monospace">assets/</text>
+<text x="431.3" y="102.0" font-size="18" font-family="sans-serif">🖼️</text>
+<text x="460.3" y="101.0" fill="#a855a0" font-size="14" font-family="monospace">image_*.png [3]</text>
+<text x="235.0" y="174.0" font-size="18" font-family="sans-serif">📁</text>
+<text x="264.0" y="173.0" fill="#d1872c" font-size="14" font-family="monospace">data/</text>
+<text x="431.3" y="150.0" font-size="18" font-family="sans-serif">📃</text>
+<text x="460.3" y="149.0" fill="#39865f" font-size="14" font-family="monospace">notes.txt</text>
+<text x="431.3" y="198.0" font-size="18" font-family="sans-serif">🧩</text>
+<text x="460.3" y="197.0" fill="#d1872c" font-size="14" font-family="monospace">report_*.json [3]</text>
+<text x="235.0" y="246.0" font-size="18" font-family="sans-serif">📁</text>
+<text x="264.0" y="245.0" fill="#376aab" font-size="14" font-family="monospace">docs/</text>
+<text x="431.3" y="246.0" font-size="18" font-family="sans-serif">📝</text>
+<text x="460.3" y="245.0" fill="#39865f" font-size="14" font-family="monospace">guide.md</text>
+<text x="235.0" y="318.0" font-size="18" font-family="sans-serif">📁</text>
+<text x="264.0" y="317.0" fill="#376aab" font-size="14" font-family="monospace">media/</text>
+<text x="431.3" y="294.0" font-size="18" font-family="sans-serif">🎵</text>
+<text x="460.3" y="293.0" fill="#68788c" font-size="14" font-family="monospace">soundtrack.mp3</text>
+<text x="431.3" y="342.0" font-size="18" font-family="sans-serif">🎬</text>
+<text x="460.3" y="341.0" fill="#68788c" font-size="14" font-family="monospace">video.mp4</text>
+<text x="235.0" y="438.0" font-size="18" font-family="sans-serif">📁</text>
+<text x="264.0" y="437.0" fill="#376aab" font-size="14" font-family="monospace">office/</text>
+<text x="431.3" y="390.0" font-size="18" font-family="sans-serif">📗</text>
+<text x="460.3" y="389.0" fill="#268a70" font-size="14" font-family="monospace">budget.xlsx</text>
+<text x="431.3" y="438.0" font-size="18" font-family="sans-serif">📘</text>
+<text x="460.3" y="437.0" fill="#68788c" font-size="14" font-family="monospace">proposal.docx</text>
+<text x="431.3" y="486.0" font-size="18" font-family="sans-serif">📙</text>
+<text x="460.3" y="485.0" fill="#68788c" font-size="14" font-family="monospace">slides.pptx</text>
+<text x="235.0" y="594.0" font-size="18" font-family="sans-serif">📁</text>
+<text x="264.0" y="593.0" fill="#376aab" font-size="14" font-family="monospace">src/</text>
+<text x="431.3" y="558.0" font-size="18" font-family="sans-serif">📁</text>
+<text x="460.3" y="557.0" fill="#376aab" font-size="14" font-family="monospace">core/</text>
+<text x="697.2" y="534.0" font-size="18" font-family="sans-serif">🐍</text>
+<text x="726.2" y="533.0" fill="#68788c" font-size="14" font-family="monospace">parser.py</text>
+<text x="697.2" y="582.0" font-size="18" font-family="sans-serif">🐍</text>
+<text x="726.2" y="581.0" fill="#68788c" font-size="14" font-family="monospace">renderer.py</text>
+<text x="431.3" y="630.0" font-size="18" font-family="sans-serif">🐍</text>
+<text x="460.3" y="629.0" fill="#68788c" font-size="14" font-family="monospace">cli.py</text>
+<text x="235.0" y="678.0" font-size="18" font-family="sans-serif">📁</text>
+<text x="264.0" y="677.0" fill="#376aab" font-size="14" font-family="monospace">tests/</text>
+<text x="431.3" y="678.0" font-size="18" font-family="sans-serif">🐍</text>
+<text x="460.3" y="677.0" fill="#68788c" font-size="14" font-family="monospace">test_core.py</text>
+<text x="235.0" y="726.0" font-size="18" font-family="sans-serif">📝</text>
+<text x="264.0" y="725.0" fill="#39865f" font-size="14" font-family="monospace">README.md</text>
 </svg>
