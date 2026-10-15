@@ -21,8 +21,8 @@ STRUCTURE = """treeforge/
 │   ├── image_001.png
 │   ├── image_002.png
 │   └── image_003.png
-├── data/
-│   ├── report_001.json
+├── office/\n│   ├── budget.xlsx\n│   ├── proposal.docx\n│   └── slides.pptx\n├── media/\n│   ├── soundtrack.mp3\n│   └── video.mp4\n├── archives/\n│   └── backup.zip\n├── data/
+│   ├── notes.txt\n│   ├── report_001.json
 │   ├── report_002.json
 │   └── report_003.json
 ├── docs/

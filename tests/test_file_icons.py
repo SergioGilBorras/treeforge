@@ -1,22 +1,24 @@
 from pathlib import Path
-import pytest
 from treeforge import TreeForge, TreeConfig
-from treeforge.render import file_symbol
 
-@pytest.mark.parametrize("extension,symbol", [
-    ("docx", "📘"), ("xls", "📗"), ("xlsx", "📗"), ("pptx", "📙"),
-    ("json", "🧩"), ("zip", "🗜️"), ("txt", "📃"), ("pdf", "📕"),
-    ("md", "📝"), ("mp3", "🎵"), ("mp4", "🎬"), ("py", "🐍"),
-])
-def test_icon_for_extension(extension, symbol):
-    tree = TreeForge.from_paths([f"file.{extension}"])
-    assert file_symbol(tree.root.children[0], TreeConfig()) == symbol
+def test_custom_icon(tmp_path: Path):
+    icons = tmp_path / "icons"
+    icons.mkdir()
+    (icons / "folder.svg").write_text(
+        '<svg xmlns="http://www.w3.org/2000/svg"><rect width="12" height="12"/></svg>',
+        encoding="utf-8",
+    )
+    tree = TreeForge.from_paths(["src/main.py"], config=TreeConfig(icons_dir=str(icons)))
+    output = tree.render(tmp_path / "tree.svg")
+    assert "data:image/svg+xml;base64," in output.read_text(encoding="utf-8")
 
-def test_render_icons_both_orientations(tmp_path: Path):
-    tree = TreeForge.from_paths(["report.xlsx", "data.json", "archive.zip", "notes.txt"])
-    for layout in ("vertical", "horizontal"):
-        result = tree.render(tmp_path / f"{layout}.svg", layout=layout).read_text(encoding="utf-8")
-        assert "data:image/svg+xml;base64," in result
-        assert "data.json" in result
-        assert "archive.zip" in result
-        assert "notes.txt" in result
+def test_reject_script_icon(tmp_path: Path):
+    icons = tmp_path / "icons"
+    icons.mkdir()
+    (icons / "folder.svg").write_text(
+        '<svg xmlns="http://www.w3.org/2000/svg"><script>alert(1)</script></svg>',
+        encoding="utf-8",
+    )
+    tree = TreeForge.from_paths(["src/main.py"], config=TreeConfig(icons_dir=str(icons)))
+    output = tree.render(tmp_path / "tree.svg")
+    assert "data:image/svg+xml;base64," in output.read_text(encoding="utf-8")

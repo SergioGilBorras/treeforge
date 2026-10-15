@@ -1,6 +1,6 @@
 # File types and default icons
 
-TreeForge recognizes files by extension and assigns an icon before rendering a native SVG, TXT tree or Mermaid node label.
+TreeForge recognizes files by extension and assigns expressive Unicode icons when rendering native SVG, TXT trees or Mermaid node labels.
 
 | Family | Extensions | Icon |
 | --- | --- | --- |

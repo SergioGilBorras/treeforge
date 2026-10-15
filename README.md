@@ -22,7 +22,7 @@ Native SVG draws continuous geometric branches. TXT uses the familiar `├──
 - Sources: filesystem, pasted AI-generated tree text, or path lists.
 - Depth/node budgets; conservative numeric-prefix and file-category grouping.
 - Native vertical/horizontal SVG, optional boxes, left/center horizontal alignment.
-- Custom SVG icons from `--icons-dir ./icons`; Unicode fallbacks; configurable colors per extension/category.
+- Classic file-type icons for folders, Word, Excel, PowerPoint, JSON, ZIP, TXT, music, video and more. Optionally override icons using `--icons-dir ./icons`; configure colors by extension/category.
 - Mermaid (`.mmd`) and Graphviz (`.dot`; SVG/PNG/PDF with installed `dot`).
 - Python 3.10+; dependency-free Python runtime for native/Mermaid/DOT export.
 

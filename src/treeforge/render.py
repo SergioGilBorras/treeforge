@@ -87,6 +87,8 @@ def tree_text(root: Node, config: TreeConfig) -> str:
 
 def custom_icon(node: Node, config: TreeConfig) -> str | None:
     """Return a safely embedded SVG data URI for a custom icon."""
+    if not config.icons_dir:
+        return None
     kind = category(node, config)
     suffix = Path(node.name).suffix.lstrip(".").lower()
     candidates = ([suffix] if suffix else []) + [kind, "folder" if node.directory else "file"]
@@ -94,19 +96,10 @@ def custom_icon(node: Node, config: TreeConfig) -> str | None:
     for candidate in candidates:
         if not re.fullmatch(r"[a-z0-9_-]+", candidate):
             continue
-        icon = directory / (candidate + ".svg") if directory else None
-        if icon is not None and icon.is_file() and icon.stat().st_size <= 65536:
-            content = icon.read_bytes()
-        else:
-            aliases = {"doc": "docx", "xls": "xlsx", "ppt": "pptx",
-                       "rar": "zip", "tar": "zip", "gz": "zip", "7z": "zip",
-                       "yaml": "json", "yml": "json", "xml": "json",
-                       "md": "documents", "rst": "documents", "csv": "spreadsheets"}
-            bundled = resources.files("treeforge").joinpath(
-                "assets", "icons", aliases.get(candidate, candidate) + ".svg")
-            if not bundled.is_file():
-                continue
-            content = bundled.read_bytes()
+        icon = directory / (candidate + ".svg")
+        if not icon.is_file() or icon.stat().st_size > 65536:
+            continue
+        content = icon.read_bytes()
         try:
             root = ET.fromstring(content)
             forbidden = {"script", "foreignObject", "image", "animate", "set"}
