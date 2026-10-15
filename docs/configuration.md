@@ -37,3 +37,7 @@ Colors use six-digit hexadecimal values. `colors` keys may match categories (`im
 - `icons_dir`: local directory of user-provided SVG icons for native SVG output in both layouts (see [Icons](icons.md)).
 
 Grouping preserves original filenames in each aggregated node's `members` list.
+
+## YAML configuration
+
+Install YAML support with `pip install 'treeforge[yaml]'`, then use `treeforge render . --config treeforge.yaml`. YAML files accept the same configuration keys as JSON, using a safe parser.
