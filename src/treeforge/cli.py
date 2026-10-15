@@ -20,9 +20,10 @@ def main(argv: list[str] | None = None) -> int:
     render.add_argument("--theme", choices=("light", "dark"), default="light")
     render.add_argument("--boxes", action="store_true")
     render.add_argument("--icons-dir")
-    render.add_argument("--config", help="JSON configuration file")
+    render.add_argument("--config", help="JSON or YAML configuration file")
     args = parser.parse_args(argv)
-    config = TreeConfig.from_json(args.config) if args.config else TreeConfig(
+    config = (TreeConfig.from_yaml(args.config) if Path(args.config).suffix.lower() in (".yaml", ".yml")
+              else TreeConfig.from_json(args.config)) if args.config else TreeConfig(
         max_depth=args.max_depth, max_nodes=args.max_nodes, group_by=tuple(
             v.strip() for v in args.group_by.split(",") if v.strip()
         ), theme=args.theme, boxes=args.boxes, align=args.align, icons_dir=args.icons_dir)

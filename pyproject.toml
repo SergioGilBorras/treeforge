@@ -15,7 +15,9 @@ classifiers = ["Programming Language :: Python :: 3", "License :: OSI Approved :
 dependencies = []
 
 [project.optional-dependencies]
-dev = ["pytest>=8", "ruff>=0.6", "build>=1.2"]
+yaml = ["PyYAML>=6"]
+docs = ["mkdocs>=1.6", "mkdocs-material>=9.5"]
+dev = ["pytest>=8", "ruff>=0.6", "build>=1.2", "PyYAML>=6", "mkdocs>=1.6", "mkdocs-material>=9.5"]
 
 [project.scripts]
 treeforge = "treeforge.cli:main"

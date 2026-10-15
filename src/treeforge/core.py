@@ -59,6 +59,17 @@ class TreeConfig:
         data = json.loads(Path(path).read_text(encoding="utf-8"))
         return cls(**data)
 
+    @classmethod
+    def from_yaml(cls, path: str | Path) -> TreeConfig:
+        try:
+            import yaml
+        except ImportError as exc:
+            raise RuntimeError('Install treeforge[yaml] for YAML configuration') from exc
+        data = yaml.safe_load(Path(path).read_text(encoding="utf-8"))
+        if not isinstance(data, dict):
+            raise ValueError("YAML configuration must be a mapping")
+        return cls(**data)
+
 def _categorized(name: str, groups: dict[str, tuple[str, ...]]) -> str:
     suffix = Path(name).suffix.lower()
     for category, extensions in groups.items():

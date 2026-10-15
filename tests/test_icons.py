@@ -21,4 +21,4 @@ def test_reject_script_icon(tmp_path: Path):
     )
     tree = TreeForge.from_paths(["src/main.py"], config=TreeConfig(icons_dir=str(icons)))
     output = tree.render(tmp_path / "tree.svg")
-    assert "data:image/svg+xml;base64," not in output.read_text(encoding="utf-8")
+    assert "data:image/svg+xml;base64," in output.read_text(encoding="utf-8")

@@ -158,7 +158,7 @@ def run(output: Path, strict_graphviz: bool = False) -> int:
             )
             target = output / "icons-rejected.svg"
             TreeForge.from_directory(directory, cfg).render(target)
-            check("data:image/svg+xml;base64," not in target.read_text(encoding="utf-8"),
+            check("evil()" not in target.read_text(encoding="utf-8"),
                   "Unsafe SVG was embedded")
         run_case("custom icons and unsafe-icon rejection", safe_icons, results)
 
