@@ -1,3 +1,3 @@
-# Built-in SVG icons
+# Optional SVG icon assets
 
-Original, self-contained icons bundled under the TreeForge MIT license. Custom icon directories take precedence.
+The `TreeForge` rendering defaults use recognizable Unicode file-type symbols. This directory contains optional original SVG artwork. Users can override node icons with `--icons-dir`.

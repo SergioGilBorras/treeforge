@@ -5,11 +5,11 @@ build-backend = "hatchling.build"
 [project]
 name = "treeforge"
 version = "0.1.0"
-description = "Beautiful directory trees from filesystems or AI-generated text."
+description = "Turn filesystem directories and AI-generated folder structures into beautiful, customizable diagrams using Mermaid and Graphviz. Smart grouping, depth control, file icons, and multiple export formats."
 readme = "README.md"
 requires-python = ">=3.10"
 license = "MIT"
-authors = [{name = "TreeForge contributors"}]
+authors = [{name = "Sergio Gil-Borrás"}]
 keywords = ["directory-tree", "graphviz", "mermaid", "visualization"]
 classifiers = ["Programming Language :: Python :: 3", "License :: OSI Approved :: MIT License", "Operating System :: OS Independent"]
 dependencies = []
@@ -18,6 +18,12 @@ dependencies = []
 yaml = ["PyYAML>=6"]
 docs = ["mkdocs>=1.6", "mkdocs-material>=9.5"]
 dev = ["pytest>=8", "ruff>=0.6", "build>=1.2", "PyYAML>=6", "mkdocs>=1.6", "mkdocs-material>=9.5"]
+
+[project.urls]
+Homepage = "https://github.com/SergioGilBorras/treeforge"
+Documentation = "https://sergiogilborras.github.io/treeforge/"
+Repository = "https://github.com/SergioGilBorras/treeforge"
+Issues = "https://github.com/SergioGilBorras/treeforge/issues"
 
 [project.scripts]
 treeforge = "treeforge.cli:main"

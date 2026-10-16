@@ -19,5 +19,5 @@ This page describes proposed future capabilities. Features available in the curr
 ## Distribution and integrations
 
 - Interactive HTML explorer with expandable grouped files.
-- Versioned documentation website and automated release workflows.
-- Stable public API and PyPI publication.
+- Versioned documentation site with stable release-specific URLs.
+- Stable public API and publication to PyPI.

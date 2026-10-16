@@ -1,6 +1,6 @@
 # Configuration
 
-Use `TreeConfig` from Python or a JSON configuration file with `--config treeforge.json`.
+Use `TreeConfig` in Python or load a JSON/YAML configuration file with `--config`. YAML uses the optional `treeforge[yaml]` extra.
 
 ```json
 {

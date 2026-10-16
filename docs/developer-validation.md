@@ -1,6 +1,6 @@
 # Developer validation suite
 
-The standalone script `devtools/run_validation.py` is **not installed with TreeForge** and is **not included in the wheel**. It imports the working source via `src/` for development only.
+The standalone script `devtools/run_validation.py` is **kept outside the installable TreeForge package** and is **not included in the wheel**. It imports the working source via `src/` for development only.
 
 ```bash
 python devtools/run_validation.py

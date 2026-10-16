@@ -1,6 +1,6 @@
 # TreeForge
 
-**Beautiful directory diagrams in Python.**
+**Turn filesystem directories and AI-generated folder structures into beautiful, customizable diagrams using Mermaid and Graphviz. Smart grouping, depth control, file icons, and multiple export formats.**
 
 Generate polished project structure diagrams from a real directory, a list of paths or text produced by an AI.
 
@@ -21,6 +21,10 @@ See [the gallery](examples/README.md) for horizontal layouts, optional boxes, an
 - [Supported file types](file-types.md)
 - [Configuration](configuration.md)
 - [Printing and size guidance](size-guidance.md)
+
+## Project author
+
+Sergio Gil-Borrás
 
 ## Installation
 

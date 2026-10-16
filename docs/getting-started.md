@@ -1,6 +1,6 @@
 # Getting started
 
-TreeForge requires Python 3.10 or later.
+TreeForge requires Python 3.10 or later. It is authored by **Sergio Gil-Borrás**.
 
 ## Install from the repository
 

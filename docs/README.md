@@ -14,5 +14,5 @@ TreeForge renders project directory structures as polished diagrams.
 ## Development
 
 - [Developer validation](developer-validation.md)
-- [Contribution guide](https://github.com/SergioGilBorras/treeforge/blob/feat/initial-treeforge-package/CONTRIBUTING.md)
+- [Contribution guide](https://github.com/SergioGilBorras/treeforge/blob/main/CONTRIBUTING.md)
 - [Roadmap](roadmap.md)

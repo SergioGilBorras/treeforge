@@ -1,7 +1,7 @@
 name: Regenerate preview SVGs
 on:
   push:
-    branches: [feat/initial-treeforge-package]
+    branches: [main]
     paths:
       - 'src/treeforge/**'
       - 'devtools/generate_previews.py'
@@ -14,7 +14,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: feat/initial-treeforge-package
+          ref: main
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
