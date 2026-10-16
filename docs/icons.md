@@ -27,4 +27,4 @@ Python API: `TreeConfig(icons_dir="./icons")`.
 
 For each file, TreeForge checks the extension first (`json.svg`, `xlsx.svg`), then the category (`images.svg`, `documents.svg`), then `folder.svg` or `file.svg`. SVG files must be self-contained and no larger than 64 KiB; embedded scripts and external references are rejected.
 
-Sample icon files are in the [repository icons directory](https://github.com/SergioGilBorras/treeforge/tree/feat/initial-treeforge-package/icons).
+Sample icon files are in the [repository icons directory](https://github.com/SergioGilBorras/treeforge/tree/main/icons).
