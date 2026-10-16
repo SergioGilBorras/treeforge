@@ -1,0 +1,32 @@
+site_name: TreeForge
+site_description: Beautiful project structure diagrams from filesystem and AI text
+site_url: https://sergiogilborras.github.io/treeforge/
+repo_url: https://github.com/SergioGilBorras/treeforge
+repo_name: SergioGilBorras/treeforge
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: blue
+      accent: indigo
+    - scheme: slate
+      primary: blue
+      accent: cyan
+nav:
+  - Home: index.md
+  - Getting started: getting-started.md
+  - Gallery: examples/README.md
+  - Rendering: rendering.md
+  - File types: file-types.md
+  - Icons: icons.md
+  - Configuration: configuration.md
+  - Developer validation: developer-validation.md
+  - Print and size limits: size-guidance.md
+  - Roadmap: roadmap.md
+exclude_docs: |
+  /README.md
+markdown_extensions:
+  - tables
+  - admonition
+  - attr_list
+  - pymdownx.superfences
