@@ -27,5 +27,7 @@ jobs:
           path: validation-output/
           if-no-files-found: ignore
       - run: python -m build
+      - name: Smoke-test installed wheel
+        run: python devtools/check_distribution.py
       - name: Verify wheel contains SVG assets
         run: python -c "import glob,zipfile; w=zipfile.ZipFile(glob.glob('dist/*.whl')[0]); assert any(p.endswith('assets/icons/folder.svg') for p in w.namelist()); print('Bundled icons verified')"

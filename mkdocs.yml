@@ -23,6 +23,7 @@ nav:
   - Developer validation: developer-validation.md
   - Print and size limits: size-guidance.md
   - Roadmap: roadmap.md
+  - Release checklist: release-checklist.md
 exclude_docs: |
   /README.md
 markdown_extensions:

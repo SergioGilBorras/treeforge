@@ -6,3 +6,5 @@ These scripts operate on the source checkout. They are **development utilities**
 - `python devtools/generate_previews.py`: regenerate eight documentation SVG images (default/custom icons, vertical/horizontal, plain/boxed) from the same input tree.
 
 See [developer validation](../docs/developer-validation.md).
+
+- `python devtools/check_distribution.py`: install the built wheel in a temporary environment and verify native rendering and text export.

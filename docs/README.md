@@ -19,3 +19,7 @@ TreeForge renders project directory structures as polished diagrams.
 - [Roadmap](roadmap.md)
 
 TreeForge is authored by **Sergio Gil-Borrás**. The documentation website is available at [GitHub Pages](https://sergiogilborras.github.io/treeforge/).
+
+## Release
+
+- [Release checklist](release-checklist.md)
