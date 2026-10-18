@@ -12,4 +12,4 @@ It creates an isolated temporary directory tree and checks equivalence with an A
 
 It writes `validation-output/report.json` (machine-readable pass/fail/skip) and `validation-output/index.html` (visual gallery of generated SVG). Artifacts are intentionally excluded from Git, while the suite is executed by CI on Linux, macOS and Windows. Nonzero exit indicates a failed validation. Graphviz is skipped if `dot` is absent unless `--strict-graphviz` is passed.
 
-This integration suite complements (rather than replaces) the normal `pytest` tests.
+Run `python -m pytest -q` for unit and regression tests. The integration suite checks end-to-end behavior and creates a visual HTML gallery.

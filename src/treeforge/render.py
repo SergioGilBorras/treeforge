@@ -7,7 +7,6 @@ import json
 import re
 import shutil
 import base64
-from importlib import resources
 import xml.etree.ElementTree as ET
 import subprocess
 from .core import Node, TreeConfig, _categorized
@@ -76,10 +75,8 @@ def walk_lines(root: Node):
     yield from visit(root, "")
 
 def tree_text(root: Node, config: TreeConfig) -> str:
-    symbols = DEFAULT_SYMBOLS
     rows = []
     for prefix, node in walk_lines(root):
-        typ = category(node, config)
         symbol = file_symbol(node, config)
         count = f" [{len(node.members)}]" if node.members and config.show_counts else ""
         rows.append(f"{prefix}{symbol} {node.name}{'/' if node.directory else ''}{count}")
@@ -120,36 +117,6 @@ def custom_icon(node: Node, config: TreeConfig) -> str | None:
 def svg_vertical(root: Node, config: TreeConfig) -> str:
     from .vertical import svg_vertical as native_vertical
     return native_vertical(root, config)
-    colors = palette(config)
-    rows = list(walk_lines(root))
-    line_h = 29
-    font_size = 15
-    longest = max(len(prefix + node.name) for prefix, node in rows)
-    width = max(480, 80 + longest * 10)
-    height = 28 + len(rows) * line_h
-    output = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}">',
-        f'<rect width="100%" height="100%" fill="{colors["background"]}"/>']
-    for i, (prefix, node) in enumerate(rows):
-        y = 32 + i * line_h
-        typ = category(node, config)
-        color = colors.get("." + Path(node.name).suffix.lower().lstrip("."),
-                          colors.get(typ, colors["file"]))
-        label = node.name + ("/" if node.directory else "")
-        if node.members and config.show_counts:
-            label += f" [{len(node.members)}]"
-        x = 20 + len(prefix) * 8.5
-        if config.boxes:
-            output.append(f'<rect x="{x-5}" y="{y-19}" width="{max(100,len(label)*9.0+40)}" height="25" rx="6" fill="{color}" opacity="0.12"/>')
-        output.append(f'<text x="20" y="{y}" font-family="monospace" font-size="{font_size}" fill="{colors["line"]}">{html.escape(prefix)}</text>')
-        icon = file_symbol(node, config)
-        icon_uri = custom_icon(node, config)
-        if icon_uri:
-            output.append(f'<image x="{x}" y="{y-17}" width="19" height="19" href="{icon_uri}"/>')
-        else:
-            output.append(f'<text x="{x}" y="{y}" font-family="sans-serif" font-size="{font_size}">{html.escape(icon)}</text>')
-        output.append(f'<text x="{x+26}" y="{y}" font-family="monospace" font-size="{font_size}" fill="{color}">{html.escape(label)}</text>')
-    output.append("</svg>")
-    return "\n".join(output)
 
 def _node_list(root: Node):
     result = []

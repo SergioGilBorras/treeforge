@@ -23,7 +23,7 @@ Use `TreeConfig` in Python or load a JSON/YAML configuration file with `--config
 }
 ```
 
-Colors use six-digit hexadecimal values. `colors` keys may match categories (`images`, `folder`, `data`) or extensions (`py`, `json`). Built-in light and dark palettes are available.
+Colors use six-digit hexadecimal values. Configuration supplied through `--config` defines the rendering settings; command-line layout and engine options still select the output representation. `colors` keys may match categories (`images`, `folder`, `data`) or extensions (`py`, `json`). Built-in light and dark palettes are available.
 
 ## Grouping
 

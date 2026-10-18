@@ -1,5 +1,5 @@
 site_name: TreeForge
-site_description: Beautiful project structure diagrams from filesystem and AI text
+site_description: Turn filesystem directories and AI-generated folder structures into beautiful, customizable diagrams using Mermaid and Graphviz.
 site_url: https://sergiogilborras.github.io/treeforge/
 repo_url: https://github.com/SergioGilBorras/treeforge
 repo_name: SergioGilBorras/treeforge

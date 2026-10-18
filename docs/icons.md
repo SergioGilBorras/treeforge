@@ -25,6 +25,6 @@ treeforge render . --icons-dir ./icons --layout horizontal --output horizontal.s
 
 Python API: `TreeConfig(icons_dir="./icons")`.
 
-For each file, TreeForge checks the extension first (`json.svg`, `xlsx.svg`), then the category (`images.svg`, `documents.svg`), then `folder.svg` or `file.svg`. SVG files must be self-contained and no larger than 64 KiB; embedded scripts and external references are rejected.
+For each file, TreeForge checks the extension first (`json.svg`, `xlsx.svg`), then the category (`images.svg`, `documents.svg`), then `folder.svg` or `file.svg`. SVG files must be self-contained and no larger than 64 KiB; scripts, embedded images and external-resource attributes are rejected.
 
 Sample icon files are in the [repository icons directory](https://github.com/SergioGilBorras/treeforge/tree/main/icons).

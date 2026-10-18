@@ -1,6 +1,6 @@
 # Roadmap
 
-This page describes proposed future capabilities. Features available in the current development version are documented in the [user guides](index.md).
+This page lists planned capabilities. See the [user guides](index.md) for the current features.
 
 ## Visual experience
 

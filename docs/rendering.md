@@ -9,7 +9,7 @@ The default is a **vertical tree without boxes**, using connected SVG paths for 
 | Vertical | TXT | Conventional Unicode tree characters |
 | Either | MMD | Mermaid flowchart source |
 | Either | DOT | Graphviz source |
-| Either | SVG/PNG/PDF | Graphviz with the system `dot` executable |
+| Either | SVG/PNG/PDF | Graphviz, when `--engine graphviz` is selected for SVG or when the extension is PNG/PDF; requires system `dot` |
 
 ```bash
 treeforge render . --output vertical.svg
@@ -23,4 +23,4 @@ treeforge render . --layout horizontal --engine graphviz --output graph.pdf
 
 Boxed native SVG diagrams use smaller, lighter borders and increased node separation. Vertical TXT retains text connectors; native SVG draws them geometrically.
 
-See the [generated comparison gallery](examples/README.md).
+The Graphviz engine does not use native SVG custom icons. See the [generated comparison gallery](examples/README.md).
