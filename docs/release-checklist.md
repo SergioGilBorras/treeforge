@@ -11,11 +11,11 @@ TreeForge is distributed as a Python package under the MIT license. Release prep
 5. Install and smoke-test the wheel in a new virtual environment: `python devtools/check_distribution.py`.
 6. Confirm the default icon SVG gallery and the custom icon gallery display as intended.
 7. Check the published GitHub Pages documentation and package links.
-8. Verify that the proposed distribution name is available to the publisher on PyPI before tagging a release.
+8. Confirm that GitHub Release artifacts and source installation instructions are ready.
 
 ## Release publication
 
-Once the checks have passed, finalize the changelog, create a version tag and prepare a GitHub release. The release workflow builds artifacts but **does not upload packages to PyPI**. Publishing there requires an approved PyPI project and authenticated publishing configuration.
+Once the checks have passed, finalize the changelog, create a version tag and prepare a GitHub release. The release workflow builds downloadable Python distribution artifacts for GitHub. TreeForge is distributed from its GitHub repository and GitHub Releases.
 
 ## Supported scope
 

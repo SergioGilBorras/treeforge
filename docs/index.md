@@ -29,6 +29,6 @@ Sergio Gil-Borrás
 ## Installation
 
 ```bash
-python -m pip install .
+python -m pip install git+https://github.com/SergioGilBorras/treeforge.git
 treeforge render . --max-depth 3 --output tree.svg
 ```

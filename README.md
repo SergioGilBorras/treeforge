@@ -28,7 +28,13 @@ Native SVG draws continuous geometric branches. TXT uses the familiar `├──
 
 ## Installation
 
-From the checked-out repository:
+Install directly from GitHub:
+
+```bash
+python -m pip install git+https://github.com/SergioGilBorras/treeforge.git
+```
+
+Alternatively, from a checked-out repository:
 
 ```bash
 python -m pip install .

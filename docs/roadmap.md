@@ -20,4 +20,4 @@ This page lists planned capabilities. See the [user guides](index.md) for the cu
 
 - Interactive HTML explorer with expandable grouped files.
 - Versioned documentation site with stable release-specific URLs.
-- Stable public API and publication to PyPI.
+- Public API stability, versioned GitHub Releases and reproducible source builds.
