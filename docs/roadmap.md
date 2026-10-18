@@ -1,23 +1,23 @@
 # Roadmap
 
-This page lists planned capabilities. See the [user guides](index.md) for the current features.
+The features below are proposed future developments, not part of the current release. Current capabilities are documented in the [user guides](index.md).
 
-## Visual experience
+## Visualization
 
-- Visual regression snapshots and automated geometry comparisons for more complex trees.
-- Additional icon packs and configurable icon-name mapping.
-- Shared theme presets for native SVG, Mermaid and Graphviz.
-- Improved layout measurements for unusually long filenames and Unicode text.
+- Automated visual regression tests for SVG rendering.
+- More customizable icon mappings and optional icon collections.
+- Additional cross-renderer theme presets.
+- Improved layout measurement for longer filenames and complex Unicode text.
 
-## Readers and transformation
+## Input and tree processing
 
-- Gitignore-aware filesystem scanning.
-- Extended text-tree parsing and more descriptive validation messages.
-- Additional grouping rules, including date patterns and user-supplied matchers.
-- Optional tree comparison and snapshot views.
+- Gitignore-aware directory scanning.
+- More input-validation diagnostics for text trees.
+- Additional configurable grouping rules.
+- Optional comparison and snapshot views.
 
-## Distribution and integrations
+## User experience
 
-- Interactive HTML explorer with expandable grouped files.
-- Versioned documentation site with stable release-specific URLs.
-- Public API stability, versioned GitHub Releases and reproducible source builds.
+- Interactive HTML viewer with expandable grouped files.
+- Version-specific documentation for future releases.
+- Continued refinement of API stability and compatibility.

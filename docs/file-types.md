@@ -1,24 +1,25 @@
 # File types and default icons
 
-TreeForge recognizes files by extension and assigns expressive Unicode icons when rendering native SVG, TXT trees or Mermaid node labels.
+TreeForge selects Unicode file-type icons for native SVG, TXT and Mermaid output. The icon is chosen from the filename extension, with a category or generic-file fallback.
 
-| Family | Extensions | Icon |
+| File type | Extensions | Default icon |
 | --- | --- | --- |
-| Microsoft Word and OpenDocument | doc, docx, odt | 📘 |
-| Excel and spreadsheets | xls, xlsx, xlsm, ods | 📗 |
-| PowerPoint and presentations | ppt, pptx, odp | 📙 |
-| Structured data | json, jsonl, xml, yaml, yml | 🧩 |
+| Word processing | doc, docx, odt | 📘 |
+| Spreadsheets | xls, xlsx, xlsm, ods | 📗 |
+| Presentations | ppt, pptx, odp | 📙 |
+| JSON and XML | json, jsonl, xml | 🧩 |
+| YAML | yaml, yml | ⚙️ |
 | Plain text | txt | 📃 |
-| Markdown | md, rst | 📝 |
+| Markdown and reStructuredText | md, rst | 📝 |
 | PDF | pdf | 📕 |
-| Compressed archives | zip, tar, gz, 7z, rar | 🗜️ |
+| Archives | zip, tar, gz, 7z, rar | 🗜️ |
 | Images | jpg, jpeg, png, svg, gif, webp, bmp | 🖼️ |
 | Python | py | 🐍 |
 | Web and code | html, css, js, ts, sql | 🌐 / 🎨 / 🟨 / 🔷 / 🗄️ |
-| Audio | mp3, wav | 🎵 |
-| Video | mp4, mov | 🎬 |
-| Unknown extensions | other | 📄 |
+| Audio | mp3, wav, flac | 🎵 |
+| Video | mp4, mov, mkv | 🎬 |
+| Other files | unrecognized extensions | 📄 |
 
-Groups of multiple files use their category icon. For custom native SVG icons, add `xlsx.svg`, `json.svg`, `zip.svg`, etc. to an icon directory and pass `--icons-dir`. Lookup proceeds by extension, category, then general file/folder fallback.
+Some less common extensions use their category's icon rather than an extension-specific symbol. Grouped file nodes display the icon for their grouping category, which can differ from the icon of an individual file.
 
-Colors can be configured independently of icons by extension or category using `TreeConfig.colors`.
+To use custom SVG icons in native diagrams, provide `--icons-dir` and see the [icon guide](icons.md). Icon colors can be configured independently with `TreeConfig.colors`.

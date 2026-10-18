@@ -1,25 +1,29 @@
 # Getting started
 
-TreeForge requires Python 3.10 or later. It is authored by **Sergio Gil-Borrás**.
+TreeForge is a Python library and command-line tool for generating directory-structure diagrams. It requires Python 3.10 or later.
 
-## Install from the repository
+## Install TreeForge
 
-```bash
-python -m pip install .
-```
-
-## Render a real directory
+Install the published v0.1.0 release directly from GitHub:
 
 ```bash
-treeforge render ./project --output tree.svg
-treeforge render ./project --layout horizontal --boxes --output horizontal.svg
+python -m pip install git+https://github.com/SergioGilBorras/treeforge.git@v0.1.0
 ```
 
-By default, TreeForge generates a **vertical SVG without boxes**.
+To work from a local clone, run `python -m pip install .` in the repository root instead. Git must be installed for the GitHub-based command.
 
-## Render a text tree
+## Render a directory
 
-Create a file called `structure.txt`:
+```bash
+treeforge render . --max-depth 3 --output tree.svg
+treeforge render . --layout horizontal --boxes --output horizontal.svg
+```
+
+The default is a vertical SVG diagram without boxes, using file-type Unicode icons.
+
+## Render an AI-generated tree
+
+Save the following as `structure.txt`:
 
 ```text
 project/
@@ -28,6 +32,8 @@ project/
 │   └── utils.py
 └── README.md
 ```
+
+Then render it:
 
 ```bash
 treeforge render structure.txt --input-format tree --output structure.svg
@@ -39,13 +45,14 @@ treeforge render structure.txt --input-format tree --output structure.svg
 from treeforge import TreeForge, TreeConfig
 
 config = TreeConfig(max_depth=3, boxes=False, theme="light")
-tree = TreeForge.from_directory("./project", config)
+tree = TreeForge.from_directory(".", config)
 tree.render("project.svg", layout="vertical")
 
-from_text = TreeForge.from_text("project/\n├── src/\n│   └── app.py\n└── README.md")
-from_text.render("diagram.svg")
+text_tree = TreeForge.from_text("project/\n├── src/\n│   └── app.py\n└── README.md")
+text_tree.render("diagram.svg")
+
+paths_tree = TreeForge.from_paths(["src/main.py", "docs/guide.md"])
+paths_tree.render("paths.svg")
 ```
 
-For path-list input, use `TreeForge.from_paths(["src/main.py", "docs/guide.md"])`.
-
-See [configuration](configuration.md) and [rendering](rendering.md) for other options.
+See [configuration](configuration.md), [rendering formats](rendering.md) and the [diagram gallery](examples/README.md).
