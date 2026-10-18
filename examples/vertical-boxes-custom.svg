@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1136" viewBox="0 0 480 1136">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<path data-tree-edge="trunk" d="M 42.0 42.0 H 48.0 V 1098.0" fill="none" stroke="#a3b3c7" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path data-tree-edge="arm" d="M 48.0 86.0 H 61.0" fill="none" stroke="#a3b3c7" stroke-width="1.8" stroke-linecap="round"/>
+<path data-tree-edge="arm" d="M 48.0 174.0 H 61.0" fill="none" stroke="#a3b3c7" stroke-width="1.8" stroke-linecap="round"/>
+<path data-tree-edge="arm" d="M 48.0 262.0 H 61.0" fill="none" stroke="#a3b3c7" stroke-width="1.8" stroke-linecap="round"/>
+<path data-tree-edge="arm" d="M 48.0 394.0 H 61.0" fill="none" stroke="#a3b3c7" stroke-width="1.8" stroke-linecap="round"/>
+<path data-tree-edge="arm" d="M 48.0 482.0 H 61.0" fill="none" stroke="#a3b3c7" stroke-width="1.8" stroke-linecap="round"/>
+<path data-tree-edge="arm" d="M 48.0 614.0 H 61.0" fill="none" stroke="#a3b3c7" stroke-width="1.8" stroke-linecap="round"/>
+<path data-tree-edge="arm" d="M 48.0 790.0 H 61.0" fill="none" stroke="#a3b3c7" stroke-width="1.8" stroke-linecap="round"/>
+<path data-tree-edge="arm" d="M 48.0 1010.0 H 61.0" fill="none" stroke="#a3b3c7" stroke-width="1.8" stroke-linecap="round"/>
+<path data-tree-edge="arm" d="M 48.0 1098.0 H 61.0" fill="none" stroke="#a3b3c7" stroke-width="1.8" stroke-linecap="round"/>
+<path data-tree-edge="trunk" d="M 82.0 86.0 H 88.0 V 130.0" fill="none" stroke="#a3b3c7" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path data-tree-edge="arm" d="M 88.0 130.0 H 101.0" fill="none" stroke="#a3b3c7" stroke-width="1.8" stroke-linecap="round"/>
+<path data-tree-edge="trunk" d="M 82.0 174.0 H 88.0 V 218.0" fill="none" stroke="#a3b3c7" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path data-tree-edge="arm" d="M 88.0 218.0 H 101.0" fill="none" stroke="#a3b3c7" stroke-width="1.8" stroke-linecap="round"/>
+<path data-tree-edge="trunk" d="M 82.0 262.0 H 88.0 V 350.0" fill="none" stroke="#a3b3c7" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path data-tree-edge="arm" d="M 88.0 306.0 H 101.0" fill="none" stroke="#a3b3c7" stroke-width="1.8" stroke-linecap="round"/>
+<path data-tree-edge="arm" d="M 88.0 350.0 H 101.0" fill="none" stroke="#a3b3c7" stroke-width="1.8" stroke-linecap="round"/>
+<path data-tree-edge="trunk" d="M 82.0 394.0 H 88.0 V 438.0" fill="none" stroke="#a3b3c7" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path data-tree-edge="arm" d="M 88.0 438.0 H 101.0" fill="none" stroke="#a3b3c7" stroke-width="1.8" stroke-linecap="round"/>
+<path data-tree-edge="trunk" d="M 82.0 482.0 H 88.0 V 570.0" fill="none" stroke="#a3b3c7" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path data-tree-edge="arm" d="M 88.0 526.0 H 101.0" fill="none" stroke="#a3b3c7" stroke-width="1.8" stroke-linecap="round"/>
+<path data-tree-edge="arm" d="M 88.0 570.0 H 101.0" fill="none" stroke="#a3b3c7" stroke-width="1.8" stroke-linecap="round"/>
+<path data-tree-edge="trunk" d="M 82.0 614.0 H 88.0 V 746.0" fill="none" stroke="#a3b3c7" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path data-tree-edge="arm" d="M 88.0 658.0 H 101.0" fill="none" stroke="#a3b3c7" stroke-width="1.8" stroke-linecap="round"/>
+<path data-tree-edge="arm" d="M 88.0 702.0 H 101.0" fill="none" stroke="#a3b3c7" stroke-width="1.8" stroke-linecap="round"/>
+<path data-tree-edge="arm" d="M 88.0 746.0 H 101.0" fill="none" stroke="#a3b3c7" stroke-width="1.8" stroke-linecap="round"/>
+<path data-tree-edge="trunk" d="M 82.0 790.0 H 88.0 V 966.0" fill="none" stroke="#a3b3c7" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path data-tree-edge="arm" d="M 88.0 834.0 H 101.0" fill="none" stroke="#a3b3c7" stroke-width="1.8" stroke-linecap="round"/>
+<path data-tree-edge="arm" d="M 88.0 966.0 H 101.0" fill="none" stroke="#a3b3c7" stroke-width="1.8" stroke-linecap="round"/>
+<path data-tree-edge="trunk" d="M 122.0 834.0 H 128.0 V 922.0" fill="none" stroke="#a3b3c7" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path data-tree-edge="arm" d="M 128.0 878.0 H 141.0" fill="none" stroke="#a3b3c7" stroke-width="1.8" stroke-linecap="round"/>
+<path data-tree-edge="arm" d="M 128.0 922.0 H 141.0" fill="none" stroke="#a3b3c7" stroke-width="1.8" stroke-linecap="round"/>
+<path data-tree-edge="trunk" d="M 82.0 1010.0 H 88.0 V 1054.0" fill="none" stroke="#a3b3c7" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path data-tree-edge="arm" d="M 88.0 1054.0 H 101.0" fill="none" stroke="#a3b3c7" stroke-width="1.8" stroke-linecap="round"/>
+<rect data-tree-node="box" x="23.0" y="27.0" width="128.0" height="30" rx="6" fill="#376aab" fill-opacity="0.07" stroke="#376aab" stroke-opacity="0.25" stroke-width="0.8"/>
+<image x="28.0" y="31.0" width="22" height="22" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iIzREODlEQSIgZD0iTTIgNWEyIDIgMCAwIDEgMi0yaDVsMiAyaDlhMiAyIDAgMCAxIDIgMnYxMmEyIDIgMCAwIDEtMiAySDRhMiAyIDAgMCAxLTItMnoiLz48L3N2Zz4K"/>
+<text x="57.0" y="47.0" font-family="monospace" font-size="15" fill="#376aab">treeforge/</text>
+<rect data-tree-node="box" x="63.0" y="71.0" width="118.8" height="30" rx="6" fill="#376aab" fill-opacity="0.07" stroke="#376aab" stroke-opacity="0.25" stroke-width="0.8"/>
+<image x="68.0" y="75.0" width="22" height="22" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iIzREODlEQSIgZD0iTTIgNWEyIDIgMCAwIDEgMi0yaDVsMiAyaDlhMiAyIDAgMCAxIDIgMnYxMmEyIDIgMCAwIDEtMiAySDRhMiAyIDAgMCAxLTItMnoiLz48L3N2Zz4K"/>
+<text x="97.0" y="91.0" font-family="monospace" font-size="15" fill="#376aab">archives/</text>
+<rect data-tree-node="box" x="103.0" y="115.0" width="128.0" height="30" rx="6" fill="#68788c" fill-opacity="0.07" stroke="#68788c" stroke-opacity="0.25" stroke-width="0.8"/>
+<image x="108.0" y="119.0" width="22" height="22" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iIzhDOThBQSIgZD0iTTUgMmg5bDUgNXYxNGExIDEgMCAwIDEtMSAxSDVhMSAxIDAgMCAxLTEtMVYzYTEgMSAwIDAgMSAxLTF6bTggMXY1aDUiLz48L3N2Zz4K"/>
+<text x="137.0" y="135.0" font-family="monospace" font-size="15" fill="#68788c">backup.zip</text>
+<rect data-tree-node="box" x="63.0" y="159.0" width="100.4" height="30" rx="6" fill="#376aab" fill-opacity="0.07" stroke="#376aab" stroke-opacity="0.25" stroke-width="0.8"/>
+<image x="68.0" y="163.0" width="22" height="22" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iIzREODlEQSIgZD0iTTIgNWEyIDIgMCAwIDEgMi0yaDVsMiAyaDlhMiAyIDAgMCAxIDIgMnYxMmEyIDIgMCAwIDEtMiAySDRhMiAyIDAgMCAxLTItMnoiLz48L3N2Zz4K"/>
+<text x="97.0" y="179.0" font-family="monospace" font-size="15" fill="#376aab">assets/</text>
+<rect data-tree-node="box" x="103.0" y="203.0" width="174.0" height="30" rx="6" fill="#a855a0" fill-opacity="0.07" stroke="#a855a0" stroke-opacity="0.25" stroke-width="0.8"/>
+<image x="108.0" y="207.0" width="22" height="22" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHJlY3QgeD0iMiIgeT0iMyIgd2lkdGg9IjIwIiBoZWlnaHQ9IjE4IiByeD0iMyIgZmlsbD0iI0MzNjVCRSIvPjxjaXJjbGUgY3g9IjgiIGN5PSI5IiByPSIyIiBmaWxsPSIjZmZmIi8+PHBhdGggZD0iTTQgMThsNi02IDQgNCAzLTMgMyA1IiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMiIvPjwvc3ZnPgo="/>
+<text x="137.0" y="223.0" font-family="monospace" font-size="15" fill="#a855a0">image_*.png [3]</text>
+<rect data-tree-node="box" x="63.0" y="247.0" width="84.0" height="30" rx="6" fill="#376aab" fill-opacity="0.07" stroke="#376aab" stroke-opacity="0.25" stroke-width="0.8"/>
+<image x="68.0" y="251.0" width="22" height="22" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iIzREODlEQSIgZD0iTTIgNWEyIDIgMCAwIDEgMi0yaDVsMiAyaDlhMiAyIDAgMCAxIDIgMnYxMmEyIDIgMCAwIDEtMiAySDRhMiAyIDAgMCAxLTItMnoiLz48L3N2Zz4K"/>
+<text x="97.0" y="267.0" font-family="monospace" font-size="15" fill="#376aab">data/</text>
+<rect data-tree-node="box" x="103.0" y="291.0" width="118.8" height="30" rx="6" fill="#39865f" fill-opacity="0.07" stroke="#39865f" stroke-opacity="0.25" stroke-width="0.8"/>
+<image x="108.0" y="295.0" width="22" height="22" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iIzhDOThBQSIgZD0iTTUgMmg5bDUgNXYxNGExIDEgMCAwIDEtMSAxSDVhMSAxIDAgMCAxLTEtMVYzYTEgMSAwIDAgMSAxLTF6bTggMXY1aDUiLz48L3N2Zz4K"/>
+<text x="137.0" y="311.0" font-family="monospace" font-size="15" fill="#39865f">notes.txt</text>
+<rect data-tree-node="box" x="103.0" y="335.0" width="192.4" height="30" rx="6" fill="#d1872c" fill-opacity="0.07" stroke="#d1872c" stroke-opacity="0.25" stroke-width="0.8"/>
+<image x="108.0" y="339.0" width="22" height="22" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iIzhDOThBQSIgZD0iTTUgMmg5bDUgNXYxNGExIDEgMCAwIDEtMSAxSDVhMSAxIDAgMCAxLTEtMVYzYTEgMSAwIDAgMSAxLTF6bTggMXY1aDUiLz48L3N2Zz4K"/>
+<text x="137.0" y="355.0" font-family="monospace" font-size="15" fill="#d1872c">report_*.json [3]</text>
+<rect data-tree-node="box" x="63.0" y="379.0" width="84.0" height="30" rx="6" fill="#376aab" fill-opacity="0.07" stroke="#376aab" stroke-opacity="0.25" stroke-width="0.8"/>
+<image x="68.0" y="383.0" width="22" height="22" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iIzREODlEQSIgZD0iTTIgNWEyIDIgMCAwIDEgMi0yaDVsMiAyaDlhMiAyIDAgMCAxIDIgMnYxMmEyIDIgMCAwIDEtMiAySDRhMiAyIDAgMCAxLTItMnoiLz48L3N2Zz4K"/>
+<text x="97.0" y="399.0" font-family="monospace" font-size="15" fill="#376aab">docs/</text>
+<rect data-tree-node="box" x="103.0" y="423.0" width="109.6" height="30" rx="6" fill="#39865f" fill-opacity="0.07" stroke="#39865f" stroke-opacity="0.25" stroke-width="0.8"/>
+<image x="108.0" y="427.0" width="22" height="22" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iIzhDOThBQSIgZD0iTTUgMmg5bDUgNXYxNGExIDEgMCAwIDEtMSAxSDVhMSAxIDAgMCAxLTEtMVYzYTEgMSAwIDAgMSAxLTF6bTggMXY1aDUiLz48L3N2Zz4K"/>
+<text x="137.0" y="443.0" font-family="monospace" font-size="15" fill="#39865f">guide.md</text>
+<rect data-tree-node="box" x="63.0" y="467.0" width="91.2" height="30" rx="6" fill="#376aab" fill-opacity="0.07" stroke="#376aab" stroke-opacity="0.25" stroke-width="0.8"/>
+<image x="68.0" y="471.0" width="22" height="22" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iIzREODlEQSIgZD0iTTIgNWEyIDIgMCAwIDEgMi0yaDVsMiAyaDlhMiAyIDAgMCAxIDIgMnYxMmEyIDIgMCAwIDEtMiAySDRhMiAyIDAgMCAxLTItMnoiLz48L3N2Zz4K"/>
+<text x="97.0" y="487.0" font-family="monospace" font-size="15" fill="#376aab">media/</text>
+<rect data-tree-node="box" x="103.0" y="511.0" width="164.8" height="30" rx="6" fill="#68788c" fill-opacity="0.07" stroke="#68788c" stroke-opacity="0.25" stroke-width="0.8"/>
+<image x="108.0" y="515.0" width="22" height="22" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iIzhDOThBQSIgZD0iTTUgMmg5bDUgNXYxNGExIDEgMCAwIDEtMSAxSDVhMSAxIDAgMCAxLTEtMVYzYTEgMSAwIDAgMSAxLTF6bTggMXY1aDUiLz48L3N2Zz4K"/>
+<text x="137.0" y="531.0" font-family="monospace" font-size="15" fill="#68788c">soundtrack.mp3</text>
+<rect data-tree-node="box" x="103.0" y="555.0" width="118.8" height="30" rx="6" fill="#68788c" fill-opacity="0.07" stroke="#68788c" stroke-opacity="0.25" stroke-width="0.8"/>
+<image x="108.0" y="559.0" width="22" height="22" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iIzhDOThBQSIgZD0iTTUgMmg5bDUgNXYxNGExIDEgMCAwIDEtMSAxSDVhMSAxIDAgMCAxLTEtMVYzYTEgMSAwIDAgMSAxLTF6bTggMXY1aDUiLz48L3N2Zz4K"/>
+<text x="137.0" y="575.0" font-family="monospace" font-size="15" fill="#68788c">video.mp4</text>
+<rect data-tree-node="box" x="63.0" y="599.0" width="100.4" height="30" rx="6" fill="#376aab" fill-opacity="0.07" stroke="#376aab" stroke-opacity="0.25" stroke-width="0.8"/>
+<image x="68.0" y="603.0" width="22" height="22" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iIzREODlEQSIgZD0iTTIgNWEyIDIgMCAwIDEgMi0yaDVsMiAyaDlhMiAyIDAgMCAxIDIgMnYxMmEyIDIgMCAwIDEtMiAySDRhMiAyIDAgMCAxLTItMnoiLz48L3N2Zz4K"/>
+<text x="97.0" y="619.0" font-family="monospace" font-size="15" fill="#376aab">office/</text>
+<rect data-tree-node="box" x="103.0" y="643.0" width="137.2" height="30" rx="6" fill="#268a70" fill-opacity="0.07" stroke="#268a70" stroke-opacity="0.25" stroke-width="0.8"/>
+<image x="108.0" y="647.0" width="22" height="22" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iIzhDOThBQSIgZD0iTTUgMmg5bDUgNXYxNGExIDEgMCAwIDEtMSAxSDVhMSAxIDAgMCAxLTEtMVYzYTEgMSAwIDAgMSAxLTF6bTggMXY1aDUiLz48L3N2Zz4K"/>
+<text x="137.0" y="663.0" font-family="monospace" font-size="15" fill="#268a70">budget.xlsx</text>
+<rect data-tree-node="box" x="103.0" y="687.0" width="155.6" height="30" rx="6" fill="#68788c" fill-opacity="0.07" stroke="#68788c" stroke-opacity="0.25" stroke-width="0.8"/>
+<image x="108.0" y="691.0" width="22" height="22" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iIzhDOThBQSIgZD0iTTUgMmg5bDUgNXYxNGExIDEgMCAwIDEtMSAxSDVhMSAxIDAgMCAxLTEtMVYzYTEgMSAwIDAgMSAxLTF6bTggMXY1aDUiLz48L3N2Zz4K"/>
+<text x="137.0" y="707.0" font-family="monospace" font-size="15" fill="#68788c">proposal.docx</text>
+<rect data-tree-node="box" x="103.0" y="731.0" width="137.2" height="30" rx="6" fill="#68788c" fill-opacity="0.07" stroke="#68788c" stroke-opacity="0.25" stroke-width="0.8"/>
+<image x="108.0" y="735.0" width="22" height="22" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iIzhDOThBQSIgZD0iTTUgMmg5bDUgNXYxNGExIDEgMCAwIDEtMSAxSDVhMSAxIDAgMCAxLTEtMVYzYTEgMSAwIDAgMSAxLTF6bTggMXY1aDUiLz48L3N2Zz4K"/>
+<text x="137.0" y="751.0" font-family="monospace" font-size="15" fill="#68788c">slides.pptx</text>
+<rect data-tree-node="box" x="63.0" y="775.0" width="84.0" height="30" rx="6" fill="#376aab" fill-opacity="0.07" stroke="#376aab" stroke-opacity="0.25" stroke-width="0.8"/>
+<image x="68.0" y="779.0" width="22" height="22" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iIzREODlEQSIgZD0iTTIgNWEyIDIgMCAwIDEgMi0yaDVsMiAyaDlhMiAyIDAgMCAxIDIgMnYxMmEyIDIgMCAwIDEtMiAySDRhMiAyIDAgMCAxLTItMnoiLz48L3N2Zz4K"/>
+<text x="97.0" y="795.0" font-family="monospace" font-size="15" fill="#376aab">src/</text>
+<rect data-tree-node="box" x="103.0" y="819.0" width="84.0" height="30" rx="6" fill="#376aab" fill-opacity="0.07" stroke="#376aab" stroke-opacity="0.25" stroke-width="0.8"/>
+<image x="108.0" y="823.0" width="22" height="22" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iIzREODlEQSIgZD0iTTIgNWEyIDIgMCAwIDEgMi0yaDVsMiAyaDlhMiAyIDAgMCAxIDIgMnYxMmEyIDIgMCAwIDEtMiAySDRhMiAyIDAgMCAxLTItMnoiLz48L3N2Zz4K"/>
+<text x="137.0" y="839.0" font-family="monospace" font-size="15" fill="#376aab">core/</text>
+<rect data-tree-node="box" x="143.0" y="863.0" width="118.8" height="30" rx="6" fill="#68788c" fill-opacity="0.07" stroke="#68788c" stroke-opacity="0.25" stroke-width="0.8"/>
+<image x="148.0" y="867.0" width="22" height="22" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHJlY3QgeD0iMyIgeT0iMyIgd2lkdGg9IjE4IiBoZWlnaHQ9IjE4IiByeD0iNSIgZmlsbD0iIzM4NzVBOCIvPjx0ZXh0IHg9IjEyIiB5PSIxNyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0id2hpdGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIj5QeTwvdGV4dD48L3N2Zz4K"/>
+<text x="177.0" y="883.0" font-family="monospace" font-size="15" fill="#68788c">parser.py</text>
+<rect data-tree-node="box" x="143.0" y="907.0" width="137.2" height="30" rx="6" fill="#68788c" fill-opacity="0.07" stroke="#68788c" stroke-opacity="0.25" stroke-width="0.8"/>
+<image x="148.0" y="911.0" width="22" height="22" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHJlY3QgeD0iMyIgeT0iMyIgd2lkdGg9IjE4IiBoZWlnaHQ9IjE4IiByeD0iNSIgZmlsbD0iIzM4NzVBOCIvPjx0ZXh0IHg9IjEyIiB5PSIxNyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0id2hpdGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIj5QeTwvdGV4dD48L3N2Zz4K"/>
+<text x="177.0" y="927.0" font-family="monospace" font-size="15" fill="#68788c">renderer.py</text>
+<rect data-tree-node="box" x="103.0" y="951.0" width="91.2" height="30" rx="6" fill="#68788c" fill-opacity="0.07" stroke="#68788c" stroke-opacity="0.25" stroke-width="0.8"/>
+<image x="108.0" y="955.0" width="22" height="22" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHJlY3QgeD0iMyIgeT0iMyIgd2lkdGg9IjE4IiBoZWlnaHQ9IjE4IiByeD0iNSIgZmlsbD0iIzM4NzVBOCIvPjx0ZXh0IHg9IjEyIiB5PSIxNyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0id2hpdGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIj5QeTwvdGV4dD48L3N2Zz4K"/>
+<text x="137.0" y="971.0" font-family="monospace" font-size="15" fill="#68788c">cli.py</text>
+<rect data-tree-node="box" x="63.0" y="995.0" width="91.2" height="30" rx="6" fill="#376aab" fill-opacity="0.07" stroke="#376aab" stroke-opacity="0.25" stroke-width="0.8"/>
+<image x="68.0" y="999.0" width="22" height="22" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iIzREODlEQSIgZD0iTTIgNWEyIDIgMCAwIDEgMi0yaDVsMiAyaDlhMiAyIDAgMCAxIDIgMnYxMmEyIDIgMCAwIDEtMiAySDRhMiAyIDAgMCAxLTItMnoiLz48L3N2Zz4K"/>
+<text x="97.0" y="1015.0" font-family="monospace" font-size="15" fill="#376aab">tests/</text>
+<rect data-tree-node="box" x="103.0" y="1039.0" width="146.4" height="30" rx="6" fill="#68788c" fill-opacity="0.07" stroke="#68788c" stroke-opacity="0.25" stroke-width="0.8"/>
+<image x="108.0" y="1043.0" width="22" height="22" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHJlY3QgeD0iMyIgeT0iMyIgd2lkdGg9IjE4IiBoZWlnaHQ9IjE4IiByeD0iNSIgZmlsbD0iIzM4NzVBOCIvPjx0ZXh0IHg9IjEyIiB5PSIxNyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0id2hpdGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIj5QeTwvdGV4dD48L3N2Zz4K"/>
+<text x="137.0" y="1059.0" font-family="monospace" font-size="15" fill="#68788c">test_core.py</text>
+<rect data-tree-node="box" x="63.0" y="1083.0" width="118.8" height="30" rx="6" fill="#39865f" fill-opacity="0.07" stroke="#39865f" stroke-opacity="0.25" stroke-width="0.8"/>
+<image x="68.0" y="1087.0" width="22" height="22" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iIzhDOThBQSIgZD0iTTUgMmg5bDUgNXYxNGExIDEgMCAwIDEtMSAxSDVhMSAxIDAgMCAxLTEtMVYzYTEgMSAwIDAgMSAxLTF6bTggMXY1aDUiLz48L3N2Zz4K"/>
+<text x="97.0" y="1103.0" font-family="monospace" font-size="15" fill="#39865f">README.md</text>
+</svg>

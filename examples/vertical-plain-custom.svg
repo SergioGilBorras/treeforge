@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="896" viewBox="0 0 480 896">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<path data-tree-edge="trunk" d="M 42.0 42.0 H 48.0 V 858.0" fill="none" stroke="#a3b3c7" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path data-tree-edge="arm" d="M 48.0 76.0 H 61.0" fill="none" stroke="#a3b3c7" stroke-width="1.8" stroke-linecap="round"/>
+<path data-tree-edge="arm" d="M 48.0 144.0 H 61.0" fill="none" stroke="#a3b3c7" stroke-width="1.8" stroke-linecap="round"/>
+<path data-tree-edge="arm" d="M 48.0 212.0 H 61.0" fill="none" stroke="#a3b3c7" stroke-width="1.8" stroke-linecap="round"/>
+<path data-tree-edge="arm" d="M 48.0 314.0 H 61.0" fill="none" stroke="#a3b3c7" stroke-width="1.8" stroke-linecap="round"/>
+<path data-tree-edge="arm" d="M 48.0 382.0 H 61.0" fill="none" stroke="#a3b3c7" stroke-width="1.8" stroke-linecap="round"/>
+<path data-tree-edge="arm" d="M 48.0 484.0 H 61.0" fill="none" stroke="#a3b3c7" stroke-width="1.8" stroke-linecap="round"/>
+<path data-tree-edge="arm" d="M 48.0 620.0 H 61.0" fill="none" stroke="#a3b3c7" stroke-width="1.8" stroke-linecap="round"/>
+<path data-tree-edge="arm" d="M 48.0 790.0 H 61.0" fill="none" stroke="#a3b3c7" stroke-width="1.8" stroke-linecap="round"/>
+<path data-tree-edge="arm" d="M 48.0 858.0 H 61.0" fill="none" stroke="#a3b3c7" stroke-width="1.8" stroke-linecap="round"/>
+<path data-tree-edge="trunk" d="M 82.0 76.0 H 88.0 V 110.0" fill="none" stroke="#a3b3c7" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path data-tree-edge="arm" d="M 88.0 110.0 H 101.0" fill="none" stroke="#a3b3c7" stroke-width="1.8" stroke-linecap="round"/>
+<path data-tree-edge="trunk" d="M 82.0 144.0 H 88.0 V 178.0" fill="none" stroke="#a3b3c7" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path data-tree-edge="arm" d="M 88.0 178.0 H 101.0" fill="none" stroke="#a3b3c7" stroke-width="1.8" stroke-linecap="round"/>
+<path data-tree-edge="trunk" d="M 82.0 212.0 H 88.0 V 280.0" fill="none" stroke="#a3b3c7" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path data-tree-edge="arm" d="M 88.0 246.0 H 101.0" fill="none" stroke="#a3b3c7" stroke-width="1.8" stroke-linecap="round"/>
+<path data-tree-edge="arm" d="M 88.0 280.0 H 101.0" fill="none" stroke="#a3b3c7" stroke-width="1.8" stroke-linecap="round"/>
+<path data-tree-edge="trunk" d="M 82.0 314.0 H 88.0 V 348.0" fill="none" stroke="#a3b3c7" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path data-tree-edge="arm" d="M 88.0 348.0 H 101.0" fill="none" stroke="#a3b3c7" stroke-width="1.8" stroke-linecap="round"/>
+<path data-tree-edge="trunk" d="M 82.0 382.0 H 88.0 V 450.0" fill="none" stroke="#a3b3c7" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path data-tree-edge="arm" d="M 88.0 416.0 H 101.0" fill="none" stroke="#a3b3c7" stroke-width="1.8" stroke-linecap="round"/>
+<path data-tree-edge="arm" d="M 88.0 450.0 H 101.0" fill="none" stroke="#a3b3c7" stroke-width="1.8" stroke-linecap="round"/>
+<path data-tree-edge="trunk" d="M 82.0 484.0 H 88.0 V 586.0" fill="none" stroke="#a3b3c7" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path data-tree-edge="arm" d="M 88.0 518.0 H 101.0" fill="none" stroke="#a3b3c7" stroke-width="1.8" stroke-linecap="round"/>
+<path data-tree-edge="arm" d="M 88.0 552.0 H 101.0" fill="none" stroke="#a3b3c7" stroke-width="1.8" stroke-linecap="round"/>
+<path data-tree-edge="arm" d="M 88.0 586.0 H 101.0" fill="none" stroke="#a3b3c7" stroke-width="1.8" stroke-linecap="round"/>
+<path data-tree-edge="trunk" d="M 82.0 620.0 H 88.0 V 756.0" fill="none" stroke="#a3b3c7" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path data-tree-edge="arm" d="M 88.0 654.0 H 101.0" fill="none" stroke="#a3b3c7" stroke-width="1.8" stroke-linecap="round"/>
+<path data-tree-edge="arm" d="M 88.0 756.0 H 101.0" fill="none" stroke="#a3b3c7" stroke-width="1.8" stroke-linecap="round"/>
+<path data-tree-edge="trunk" d="M 122.0 654.0 H 128.0 V 722.0" fill="none" stroke="#a3b3c7" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path data-tree-edge="arm" d="M 128.0 688.0 H 141.0" fill="none" stroke="#a3b3c7" stroke-width="1.8" stroke-linecap="round"/>
+<path data-tree-edge="arm" d="M 128.0 722.0 H 141.0" fill="none" stroke="#a3b3c7" stroke-width="1.8" stroke-linecap="round"/>
+<path data-tree-edge="trunk" d="M 82.0 790.0 H 88.0 V 824.0" fill="none" stroke="#a3b3c7" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path data-tree-edge="arm" d="M 88.0 824.0 H 101.0" fill="none" stroke="#a3b3c7" stroke-width="1.8" stroke-linecap="round"/>
+<image x="28.0" y="31.0" width="22" height="22" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iIzREODlEQSIgZD0iTTIgNWEyIDIgMCAwIDEgMi0yaDVsMiAyaDlhMiAyIDAgMCAxIDIgMnYxMmEyIDIgMCAwIDEtMiAySDRhMiAyIDAgMCAxLTItMnoiLz48L3N2Zz4K"/>
+<text x="57.0" y="47.0" font-family="monospace" font-size="15" fill="#376aab">treeforge/</text>
+<image x="68.0" y="65.0" width="22" height="22" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iIzREODlEQSIgZD0iTTIgNWEyIDIgMCAwIDEgMi0yaDVsMiAyaDlhMiAyIDAgMCAxIDIgMnYxMmEyIDIgMCAwIDEtMiAySDRhMiAyIDAgMCAxLTItMnoiLz48L3N2Zz4K"/>
+<text x="97.0" y="81.0" font-family="monospace" font-size="15" fill="#376aab">archives/</text>
+<image x="108.0" y="99.0" width="22" height="22" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iIzhDOThBQSIgZD0iTTUgMmg5bDUgNXYxNGExIDEgMCAwIDEtMSAxSDVhMSAxIDAgMCAxLTEtMVYzYTEgMSAwIDAgMSAxLTF6bTggMXY1aDUiLz48L3N2Zz4K"/>
+<text x="137.0" y="115.0" font-family="monospace" font-size="15" fill="#68788c">backup.zip</text>
+<image x="68.0" y="133.0" width="22" height="22" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iIzREODlEQSIgZD0iTTIgNWEyIDIgMCAwIDEgMi0yaDVsMiAyaDlhMiAyIDAgMCAxIDIgMnYxMmEyIDIgMCAwIDEtMiAySDRhMiAyIDAgMCAxLTItMnoiLz48L3N2Zz4K"/>
+<text x="97.0" y="149.0" font-family="monospace" font-size="15" fill="#376aab">assets/</text>
+<image x="108.0" y="167.0" width="22" height="22" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHJlY3QgeD0iMiIgeT0iMyIgd2lkdGg9IjIwIiBoZWlnaHQ9IjE4IiByeD0iMyIgZmlsbD0iI0MzNjVCRSIvPjxjaXJjbGUgY3g9IjgiIGN5PSI5IiByPSIyIiBmaWxsPSIjZmZmIi8+PHBhdGggZD0iTTQgMThsNi02IDQgNCAzLTMgMyA1IiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMiIvPjwvc3ZnPgo="/>
+<text x="137.0" y="183.0" font-family="monospace" font-size="15" fill="#a855a0">image_*.png [3]</text>
+<image x="68.0" y="201.0" width="22" height="22" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iIzREODlEQSIgZD0iTTIgNWEyIDIgMCAwIDEgMi0yaDVsMiAyaDlhMiAyIDAgMCAxIDIgMnYxMmEyIDIgMCAwIDEtMiAySDRhMiAyIDAgMCAxLTItMnoiLz48L3N2Zz4K"/>
+<text x="97.0" y="217.0" font-family="monospace" font-size="15" fill="#376aab">data/</text>
+<image x="108.0" y="235.0" width="22" height="22" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iIzhDOThBQSIgZD0iTTUgMmg5bDUgNXYxNGExIDEgMCAwIDEtMSAxSDVhMSAxIDAgMCAxLTEtMVYzYTEgMSAwIDAgMSAxLTF6bTggMXY1aDUiLz48L3N2Zz4K"/>
+<text x="137.0" y="251.0" font-family="monospace" font-size="15" fill="#39865f">notes.txt</text>
+<image x="108.0" y="269.0" width="22" height="22" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iIzhDOThBQSIgZD0iTTUgMmg5bDUgNXYxNGExIDEgMCAwIDEtMSAxSDVhMSAxIDAgMCAxLTEtMVYzYTEgMSAwIDAgMSAxLTF6bTggMXY1aDUiLz48L3N2Zz4K"/>
+<text x="137.0" y="285.0" font-family="monospace" font-size="15" fill="#d1872c">report_*.json [3]</text>
+<image x="68.0" y="303.0" width="22" height="22" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iIzREODlEQSIgZD0iTTIgNWEyIDIgMCAwIDEgMi0yaDVsMiAyaDlhMiAyIDAgMCAxIDIgMnYxMmEyIDIgMCAwIDEtMiAySDRhMiAyIDAgMCAxLTItMnoiLz48L3N2Zz4K"/>
+<text x="97.0" y="319.0" font-family="monospace" font-size="15" fill="#376aab">docs/</text>
+<image x="108.0" y="337.0" width="22" height="22" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iIzhDOThBQSIgZD0iTTUgMmg5bDUgNXYxNGExIDEgMCAwIDEtMSAxSDVhMSAxIDAgMCAxLTEtMVYzYTEgMSAwIDAgMSAxLTF6bTggMXY1aDUiLz48L3N2Zz4K"/>
+<text x="137.0" y="353.0" font-family="monospace" font-size="15" fill="#39865f">guide.md</text>
+<image x="68.0" y="371.0" width="22" height="22" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iIzREODlEQSIgZD0iTTIgNWEyIDIgMCAwIDEgMi0yaDVsMiAyaDlhMiAyIDAgMCAxIDIgMnYxMmEyIDIgMCAwIDEtMiAySDRhMiAyIDAgMCAxLTItMnoiLz48L3N2Zz4K"/>
+<text x="97.0" y="387.0" font-family="monospace" font-size="15" fill="#376aab">media/</text>
+<image x="108.0" y="405.0" width="22" height="22" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iIzhDOThBQSIgZD0iTTUgMmg5bDUgNXYxNGExIDEgMCAwIDEtMSAxSDVhMSAxIDAgMCAxLTEtMVYzYTEgMSAwIDAgMSAxLTF6bTggMXY1aDUiLz48L3N2Zz4K"/>
+<text x="137.0" y="421.0" font-family="monospace" font-size="15" fill="#68788c">soundtrack.mp3</text>
+<image x="108.0" y="439.0" width="22" height="22" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iIzhDOThBQSIgZD0iTTUgMmg5bDUgNXYxNGExIDEgMCAwIDEtMSAxSDVhMSAxIDAgMCAxLTEtMVYzYTEgMSAwIDAgMSAxLTF6bTggMXY1aDUiLz48L3N2Zz4K"/>
+<text x="137.0" y="455.0" font-family="monospace" font-size="15" fill="#68788c">video.mp4</text>
+<image x="68.0" y="473.0" width="22" height="22" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iIzREODlEQSIgZD0iTTIgNWEyIDIgMCAwIDEgMi0yaDVsMiAyaDlhMiAyIDAgMCAxIDIgMnYxMmEyIDIgMCAwIDEtMiAySDRhMiAyIDAgMCAxLTItMnoiLz48L3N2Zz4K"/>
+<text x="97.0" y="489.0" font-family="monospace" font-size="15" fill="#376aab">office/</text>
+<image x="108.0" y="507.0" width="22" height="22" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iIzhDOThBQSIgZD0iTTUgMmg5bDUgNXYxNGExIDEgMCAwIDEtMSAxSDVhMSAxIDAgMCAxLTEtMVYzYTEgMSAwIDAgMSAxLTF6bTggMXY1aDUiLz48L3N2Zz4K"/>
+<text x="137.0" y="523.0" font-family="monospace" font-size="15" fill="#268a70">budget.xlsx</text>
+<image x="108.0" y="541.0" width="22" height="22" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iIzhDOThBQSIgZD0iTTUgMmg5bDUgNXYxNGExIDEgMCAwIDEtMSAxSDVhMSAxIDAgMCAxLTEtMVYzYTEgMSAwIDAgMSAxLTF6bTggMXY1aDUiLz48L3N2Zz4K"/>
+<text x="137.0" y="557.0" font-family="monospace" font-size="15" fill="#68788c">proposal.docx</text>
+<image x="108.0" y="575.0" width="22" height="22" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iIzhDOThBQSIgZD0iTTUgMmg5bDUgNXYxNGExIDEgMCAwIDEtMSAxSDVhMSAxIDAgMCAxLTEtMVYzYTEgMSAwIDAgMSAxLTF6bTggMXY1aDUiLz48L3N2Zz4K"/>
+<text x="137.0" y="591.0" font-family="monospace" font-size="15" fill="#68788c">slides.pptx</text>
+<image x="68.0" y="609.0" width="22" height="22" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iIzREODlEQSIgZD0iTTIgNWEyIDIgMCAwIDEgMi0yaDVsMiAyaDlhMiAyIDAgMCAxIDIgMnYxMmEyIDIgMCAwIDEtMiAySDRhMiAyIDAgMCAxLTItMnoiLz48L3N2Zz4K"/>
+<text x="97.0" y="625.0" font-family="monospace" font-size="15" fill="#376aab">src/</text>
+<image x="108.0" y="643.0" width="22" height="22" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iIzREODlEQSIgZD0iTTIgNWEyIDIgMCAwIDEgMi0yaDVsMiAyaDlhMiAyIDAgMCAxIDIgMnYxMmEyIDIgMCAwIDEtMiAySDRhMiAyIDAgMCAxLTItMnoiLz48L3N2Zz4K"/>
+<text x="137.0" y="659.0" font-family="monospace" font-size="15" fill="#376aab">core/</text>
+<image x="148.0" y="677.0" width="22" height="22" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHJlY3QgeD0iMyIgeT0iMyIgd2lkdGg9IjE4IiBoZWlnaHQ9IjE4IiByeD0iNSIgZmlsbD0iIzM4NzVBOCIvPjx0ZXh0IHg9IjEyIiB5PSIxNyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0id2hpdGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIj5QeTwvdGV4dD48L3N2Zz4K"/>
+<text x="177.0" y="693.0" font-family="monospace" font-size="15" fill="#68788c">parser.py</text>
+<image x="148.0" y="711.0" width="22" height="22" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHJlY3QgeD0iMyIgeT0iMyIgd2lkdGg9IjE4IiBoZWlnaHQ9IjE4IiByeD0iNSIgZmlsbD0iIzM4NzVBOCIvPjx0ZXh0IHg9IjEyIiB5PSIxNyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0id2hpdGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIj5QeTwvdGV4dD48L3N2Zz4K"/>
+<text x="177.0" y="727.0" font-family="monospace" font-size="15" fill="#68788c">renderer.py</text>
+<image x="108.0" y="745.0" width="22" height="22" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHJlY3QgeD0iMyIgeT0iMyIgd2lkdGg9IjE4IiBoZWlnaHQ9IjE4IiByeD0iNSIgZmlsbD0iIzM4NzVBOCIvPjx0ZXh0IHg9IjEyIiB5PSIxNyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0id2hpdGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIj5QeTwvdGV4dD48L3N2Zz4K"/>
+<text x="137.0" y="761.0" font-family="monospace" font-size="15" fill="#68788c">cli.py</text>
+<image x="68.0" y="779.0" width="22" height="22" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iIzREODlEQSIgZD0iTTIgNWEyIDIgMCAwIDEgMi0yaDVsMiAyaDlhMiAyIDAgMCAxIDIgMnYxMmEyIDIgMCAwIDEtMiAySDRhMiAyIDAgMCAxLTItMnoiLz48L3N2Zz4K"/>
+<text x="97.0" y="795.0" font-family="monospace" font-size="15" fill="#376aab">tests/</text>
+<image x="108.0" y="813.0" width="22" height="22" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHJlY3QgeD0iMyIgeT0iMyIgd2lkdGg9IjE4IiBoZWlnaHQ9IjE4IiByeD0iNSIgZmlsbD0iIzM4NzVBOCIvPjx0ZXh0IHg9IjEyIiB5PSIxNyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0id2hpdGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIj5QeTwvdGV4dD48L3N2Zz4K"/>
+<text x="137.0" y="829.0" font-family="monospace" font-size="15" fill="#68788c">test_core.py</text>
+<image x="68.0" y="847.0" width="22" height="22" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iIzhDOThBQSIgZD0iTTUgMmg5bDUgNXYxNGExIDEgMCAwIDEtMSAxSDVhMSAxIDAgMCAxLTEtMVYzYTEgMSAwIDAgMSAxLTF6bTggMXY1aDUiLz48L3N2Zz4K"/>
+<text x="97.0" y="863.0" font-family="monospace" font-size="15" fill="#39865f">README.md</text>
+</svg>
